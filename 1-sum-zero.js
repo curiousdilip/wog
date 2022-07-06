@@ -13,3 +13,5 @@ function getSumZero(array) {
 
 const result=getSumZero([-5,-4,-2,0,2,4,6,8]);
 console.log(result);
+
+//o(n'2) quadratic time complexity
