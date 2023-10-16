@@ -1,0 +1,14 @@
+.container {
+  max-width: 1100px !important;
+}
+
+body {
+  font-family: "Jost", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
+}
+
+section {
+  height: 100vh;
+  text-align: center;
+  margin-top: 150px;
+}
