@@ -1,10 +1,44 @@
 import Header from "./components/header";
+import { guidanceBox } from "./data/home";
+import "./home.css";
 export default function Home() {
   return (
     <>
       <Header />
-      <section>
-        <h2>Section 1</h2>
+      <section id="hero">
+        <div className="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-6 col-md-10 ">
+              <div class="section-heading">
+                <h2>Word of Guidance</h2>
+                <p>To equip for every good work</p>
+              </div>
+              <div className="note">
+                <h2>There is no commercial purpose for this website.</h2>
+              </div>
+              <a href="#home-guidance" class="scroll-down" address="true">
+                <i className="bi bi-caret-down"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="home-guidance">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12">
+              <div className="box-container">
+                {guidanceBox.map((item, index) => (
+                  <div className="box" key={index}>
+                    <img src={item.src} alt={item.title} />
+                    <h2>{item.title}</h2>
+                    <a href={item.link}>Learn More</a>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
       <section>
         <h3>Section 2</h3>
