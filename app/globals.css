@@ -2,13 +2,138 @@
   max-width: 1100px !important;
 }
 
-body {
+/* body {
   font-family: "Jost", sans-serif;
-  /* font-family: "Poppins", sans-serif; */
-}
+  font-family: "Poppins", sans-serif;
+} */
 
 section {
   height: 100vh;
   text-align: center;
   margin-top: 150px;
+}
+
+/* Header */
+
+header {
+  background-color: #fbfbfb;
+  font-family: "Poppins", sans-serif;
+}
+header .top {
+  padding: 15px 0;
+}
+
+header .top .email a {
+  text-decoration: none;
+  color: #072961;
+  display: block;
+}
+header .top .social {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+header .top .social a {
+  text-decoration: none;
+  color: #072961;
+  display: block;
+  margin-right: 10px;
+}
+header .top .social a:last-child {
+  margin-right: 0;
+}
+
+header .top .social a i {
+  font-size: 16px;
+}
+.navbar {
+  background-color: #fbfbfb;
+  border-top: 1px solid #7a7a7a;
+  margin-top: 48px;
+  transition: all 0.35s;
+}
+
+header.scrolled .navbar {
+  margin-top: 0;
+}
+
+.navbar .navbar-brand {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 216px;
+}
+
+.navbar .navbar-brand h1 {
+  font-size: 2rem;
+  font-weight: 300;
+  font-family: "Jost", sans-serif;
+}
+
+.navbar .navbar-brand h1 span {
+  font-weight: 600;
+}
+
+.scrolled .navbar .navbar-brand h1 {
+  color: #fff;
+}
+
+.scrolled .navbar {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.scrolled .navbar .nav-link {
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .navbar .navbar-brand {
+    width: 180px;
+  }
+
+  .navbar .navbar-brand h1 {
+    font-size: calc(1.325rem + 0.9vw);
+  }
+}
+
+.navbar .navbar-toggler {
+  border: none;
+}
+
+.scrolled .navbar .navbar-toggler {
+  border: none;
+}
+.navbar-toggler span {
+  display: block;
+  background-color: #000;
+  height: 2px;
+  width: 25px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  position: relative;
+  left: 0;
+  opacity: 1;
+  transition: all 0.35s ease-out;
+  transform-origin: center left;
+}
+
+.scrolled .navbar-toggler span {
+  background-color: #fff;
+}
+
+.navbar-toggler span:nth-child(1) {
+  transform: translate(0%, 0%) rotate(0deg);
+  margin-top: 0.3em;
+}
+
+.navbar-toggler[aria-expanded="true"] span:nth-child(1) {
+  transform: translate(18%, -33%) rotate(40deg);
+}
+
+.navbar-toggler[aria-expanded="true"] span:nth-child(2) {
+  opacity: 0;
+}
+
+.navbar-toggler[aria-expanded="true"] span:nth-child(3) {
+  transform: translate(18%, 33%) rotate(-40deg);
 }
