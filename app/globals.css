@@ -19,6 +19,7 @@ header {
   background-color: #fbfbfb;
   font-family: "Poppins", sans-serif;
 }
+
 header .top {
   padding: 15px 0;
 }
@@ -28,17 +29,20 @@ header .top .email a {
   color: #072961;
   display: block;
 }
+
 header .top .social {
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
+
 header .top .social a {
   text-decoration: none;
   color: #072961;
   display: block;
   margin-right: 10px;
 }
+
 header .top .social a:last-child {
   margin-right: 0;
 }
@@ -46,6 +50,7 @@ header .top .social a:last-child {
 header .top .social a i {
   font-size: 16px;
 }
+
 .navbar {
   background-color: #fbfbfb;
   border-top: 1px solid #7a7a7a;
@@ -68,6 +73,7 @@ header.scrolled .navbar {
   font-size: 2rem;
   font-weight: 300;
   font-family: "Jost", sans-serif;
+  margin-bottom: 0;
 }
 
 .navbar .navbar-brand h1 span {
@@ -103,6 +109,7 @@ header.scrolled .navbar {
 .scrolled .navbar .navbar-toggler {
   border: none;
 }
+
 .navbar-toggler span {
   display: block;
   background-color: #000;

@@ -7,16 +7,16 @@ export default function Home() {
       <Header />
       <section id="hero">
         <div className="container">
-          <div class="row justify-content-center">
-            <div class="col-lg-6 col-md-10 ">
-              <div class="section-heading">
+          <div className="row justify-content-center">
+            <div className="col-lg-6 col-md-10 ">
+              <div className="section-heading">
                 <h2>Word of Guidance</h2>
                 <p>To equip for every good work</p>
               </div>
               <div className="note">
                 <h2>There is no commercial purpose for this website.</h2>
               </div>
-              <a href="#home-guidance" class="scroll-down" address="true">
+              <a href="#home-guidance" className="scroll-down" address="true">
                 <i className="bi bi-caret-down"></i>
               </a>
             </div>
@@ -25,6 +25,13 @@ export default function Home() {
       </section>
       <section id="home-guidance">
         <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-6 col-md-10 ">
+              <div className="section-heading text-center">
+                <h2>Guidance</h2>
+              </div>
+            </div>
+          </div>
           <div className="row">
             <div className="col-md-12">
               <div className="box-container">
