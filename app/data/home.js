@@ -38,22 +38,22 @@ export const guidanceBox = [
 
 export const aboutBox = [
   {
-    src: "/icons/faith.svg",
+    src: "/icons/bio.svg",
     title: "Bio",
     link: "/bio",
   },
   {
-    src: "/icons/education.svg",
+    src: "/icons/articles.svg",
     title: "Articles",
     link: "/articles",
   },
   {
-    src: "/icons/jobs.svg",
+    src: "/icons/messages.svg",
     title: "Messages",
     link: "/message",
   },
   {
-    src: "/icons/marriage.svg",
+    src: "/icons/events.svg",
     title: "Events",
     link: "/events",
   }
@@ -62,22 +62,22 @@ export const aboutBox = [
 
 export const contactBox = [
   {
-    src: "/icons/faith.svg",
+    src: "/icons/feedback.svg",
     title: "Feedback",
     link: "/feedback",
   },
   {
-    src: "/icons/education.svg",
+    src: "/icons/prayer-request.svg",
     title: "Counselling and Prayers",
     link: "/counselling-and-prayers",
   },
   {
-    src: "/icons/jobs.svg",
+    src: "/icons/guidance.svg",
     title: "Career Guidance",
     link: "/career-guidance",
   },
   {
-    src: "/icons/marriage.svg",
+    src: "/icons/invite-me-to-speak.svg",
     title: "Invite me to Speak",
     link: "/invite-me",
   }
