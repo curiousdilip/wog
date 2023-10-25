@@ -100,6 +100,18 @@ header.scrolled .navbar {
   .navbar .navbar-brand h1 {
     font-size: calc(1.325rem + 0.9vw);
   }
+
+  .navbar {
+    margin-top: 78px;
+  }
+
+  header .top .email {
+    text-align: center;
+  }
+
+  header .top .social {
+    justify-content: center;
+  }
 }
 
 .navbar .navbar-toggler {
