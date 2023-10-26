@@ -6,7 +6,7 @@ export const faithBox = [
   },
   {
     src: "/icons/help-from-bible.svg",
-    title: "Help form the Bible",
+    title: "Help from the Bible",
     link: "/help-from-the-bible",
   },
   {
