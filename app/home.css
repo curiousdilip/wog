@@ -51,7 +51,6 @@
 }
 
 @keyframes bounce {
-
   0%,
   100%,
   20%,
@@ -77,18 +76,45 @@
 
 #hero-details {
   padding: 80px 0;
-  background-color: #F8F8F8;
+  position: relative;
+}
+
+#hero-details .hero-img {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  background-image: linear-gradient(
+      45deg,
+      rgba(1, 82, 158, 1),
+      rgba(1, 82, 158, 0.6),
+      rgba(1, 82, 158, 0.2)
+    ),
+    url("/hero-img.jpeg");
+  /* Add the blur effect */
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  left: 0;
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+  /* Full height */
+  height: 100%;
+  width: 100%;
 }
 
 #hero-details .content {
+  z-index: 2;
+  position: relative;
   font-family: "Jost", sans-serif;
-
+  color: #fff;
 }
 
 #home-guidance {
   padding: 80px 0;
-  display: grid;
-  place-content: center;
+  /* display: grid; */
+  /* place-content: center; */
 }
 
 #home-guidance .section-heading h2 {
@@ -179,8 +205,9 @@
   }
 
   #home-guidance .box-container .box {
-    margin: 10px 0;
+    margin: 10px auto;
     height: 200px;
+    width: 250px;
   }
 }
 
@@ -260,7 +287,7 @@
   }
 
   #home-about .box-container .box {
-    margin: 10px 0;
+    margin: 10px auto;
     height: 200px;
   }
 }
@@ -331,4 +358,17 @@
 #home-contact .box-container .box img {
   width: 70px;
   height: 70px;
+}
+
+@media (max-width: 768px) {
+  #home-contact .box-container {
+    display: block;
+    width: 90%;
+    margin: auto;
+  }
+
+  #home-contact .box-container .box {
+    margin: 10px auto;
+    height: 200px;
+  }
 }

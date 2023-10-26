@@ -156,3 +156,59 @@ header.scrolled .navbar {
 .navbar-toggler[aria-expanded="true"] span:nth-child(3) {
   transform: translate(18%, 33%) rotate(-40deg);
 }
+
+.navbar .navbar-toggler {
+  border: none;
+}
+
+.scrolled .navbar .navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+
+footer {
+  padding: 25px;
+  color: #fff;
+  background-color: #01529e;
+}
+footer .footer-logo {
+  text-decoration: none;
+}
+footer .footer-logo h3 {
+  font-size: 2rem;
+  font-weight: 300;
+  font-family: "Jost", sans-serif;
+  margin-bottom: 0;
+  color: #fff;
+}
+
+footer .footer-logo h3 span {
+  font-weight: 600;
+}
+
+footer .connect {
+  margin-top: 27px;
+}
+footer .connect .list {
+  display: flex;
+}
+
+footer .connect .list p {
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+
+footer .footer-nav ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+footer .footer-nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
