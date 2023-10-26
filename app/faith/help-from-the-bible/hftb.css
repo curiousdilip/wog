@@ -1,22 +1,23 @@
-#bos-hero {
+#hftb {
   background-color: #f8f8f8;
 }
 
-#bos-hero .content {
+#hftb .content {
   padding: 80px 0;
   font-family: "Jost", sans-serif;
 }
-#bos-hero .content .topic {
+#hftb .content .topic {
   margin-bottom: 20px;
 }
-#bos-hero .content .topic h3 {
+#hftb .content .topic h3 {
   font-size: 28px;
   color: #000;
   margin-bottom: 10px;
   font-weight: 400;
+  text-transform: capitalize;
 }
 
-#bos-hero .content .topic p {
+#hftb .content .topic p {
   font-size: 18px;
   color: #3d3d3d;
   margin-bottom: 8px;

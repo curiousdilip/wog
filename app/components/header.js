@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const Header = () => {
   const router = useRouter();
-
+  const [showBackToTop, setShowBackToTop] = useState(false);
   useEffect(() => {
     require("bootstrap/dist/js/bootstrap.bundle.min.js");
   }, []);
@@ -16,6 +16,11 @@ const Header = () => {
 
   const handleScroll = () => {
     setScrolled(window.scrollY > 10);
+    setShowBackToTop(window.scrollY > 200);
+  };
+
+  const handleBackToTopClick = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   useEffect(() => {
@@ -120,6 +125,12 @@ const Header = () => {
           </div>
         </div>
       </nav>
+
+      {showBackToTop && (
+        <div className="backToTopButton" onClick={handleBackToTopClick}>
+          <i className="bi bi-chevron-double-up"></i>
+        </div>
+      )}
     </header>
   );
 };
