@@ -228,6 +228,17 @@ footer .footer-nav ul li a {
   background-position: center center;
 }
 
+.breadcrumbs .Peace {
+  position: relative;
+  padding: 80px 0;
+  background:
+    linear-gradient(180deg, rgba(1, 82, 158, 0.7), rgba(1, 82, 158, 0.5)),
+    url("/hero-img.jpeg") no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  background-position: center center;
+}
+
 .breadcrumbs h3 {
   font-family: "Poppins", sans-serif;
   font-size: 80px;
