@@ -115,6 +115,7 @@
   padding: 80px 0;
   /* display: grid; */
   /* place-content: center; */
+  font-family: "Jost", sans-serif;
 }
 
 #home-guidance .section-heading h2 {
@@ -142,9 +143,9 @@
   border-radius: 10px;
 }
 
-#home-guidance .box-container .box h2 {
+#home-guidance .box-container .box h3 {
   font-weight: 300;
-
+  text-align: center;
   margin: 5px 0;
 }
 
@@ -212,6 +213,7 @@
 }
 
 #home-about {
+  font-family: "Jost", sans-serif;
   /* height: 100vh; */
   display: grid;
   padding-bottom: 80px;
@@ -243,7 +245,7 @@
   border-radius: 10px;
 }
 
-#home-about .box-container .box h2 {
+#home-about .box-container .box h3 {
   font-weight: 300;
 
   margin: 5px 0;
@@ -293,6 +295,7 @@
 }
 
 #home-contact {
+  font-family: "Jost", sans-serif;
   display: grid;
   padding-bottom: 80px;
   place-content: center;
@@ -324,7 +327,7 @@
   border-radius: 10px;
 }
 
-#home-contact .box-container .box h2 {
+#home-contact .box-container .box h3 {
   font-weight: 300;
 
   margin: 5px 0;

@@ -106,7 +106,7 @@ export default function Home() {
                 {guidanceBox.map((item, index) => (
                   <div className="box" key={index}>
                     <img src={item.src} alt={item.title} />
-                    <h2>{item.title}</h2>
+                    <h3>{item.title}</h3>
                     <a href={item.link}>Learn More</a>
                   </div>
                 ))}
@@ -131,7 +131,7 @@ export default function Home() {
                 {aboutBox.map((item, index) => (
                   <div className="box" key={index}>
                     <img src={item.src} alt={item.title} />
-                    <h2>{item.title}</h2>
+                    <h3>{item.title}</h3>
                     <a href={item.link}>Learn More</a>
                   </div>
                 ))}
@@ -156,7 +156,7 @@ export default function Home() {
                 {contactBox.map((item, index) => (
                   <div className="box" key={index}>
                     <img src={item.src} alt={item.title} />
-                    <h2>{item.title}</h2>
+                    <h3>{item.title}</h3>
                     <a href={item.link}>Learn More</a>
                   </div>
                 ))}
