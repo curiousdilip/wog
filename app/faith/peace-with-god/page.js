@@ -313,6 +313,7 @@ export default function PeaceWithGod() {
           </div>
         </div>
       </section>
+      <Footer />
     </>
   );
 }
