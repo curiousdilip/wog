@@ -2,10 +2,12 @@ import Image from "next/image";
 import Footer from "../components/footer";
 import Header from "../components/header";
 import "./education.css";
+import Breadcrumbs from "../components/breadcrumbs";
 export default function Home() {
   return (
     <>
       <Header />
+      <Breadcrumbs pageName="Education Bible" />
       <section id="education">
         <div className="container">
           <div className="row">
