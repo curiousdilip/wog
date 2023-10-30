@@ -1,0 +1,27 @@
+#sg {
+  background-color: #fff;
+}
+
+#sg .content {
+  padding: 80px 0;
+  font-family: "Jost", sans-serif;
+}
+
+#sg .content .topic {
+  margin-bottom: 20px;
+}
+
+#sg .content .topic h3 {
+  font-size: 28px;
+  color: #000;
+  margin-bottom: 10px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+#sg .content .topic p {
+  font-size: 18px;
+  color: #3d3d3d;
+  margin-bottom: 8px;
+  font-weight: 300;
+}
