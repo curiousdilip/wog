@@ -1,0 +1,38 @@
+#bio {
+  background-color: #fff;
+}
+
+#bio .content {
+  padding: 80px 0;
+  font-family: "Jost", sans-serif;
+}
+
+#bio .content .topic {
+  margin-bottom: 20px;
+}
+
+#bio .content .topic h3 {
+  font-size: 28px;
+  color: #000;
+  margin-bottom: 10px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+#bio .content .topic p {
+  font-size: 18px;
+  color: #3d3d3d;
+  margin-bottom: 8px;
+  font-weight: 300;
+}
+
+#bio .details p {
+  font-size: 18px;
+  color: #3d3d3d;
+  margin-bottom: 8px;
+  font-weight: 400;
+}
+
+#bio .details p span {
+  font-weight: 600;
+}
