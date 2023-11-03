@@ -1,6 +1,7 @@
 import Breadcrumbs from "../components/breadcrumbs";
 import Footer from "../components/footer";
 import Header from "../components/header";
+import { AudMessages, VidMessages } from "../data/messages";
 import "./messages.css";
 export default function Messages() {
   return (
@@ -14,83 +15,27 @@ export default function Messages() {
               <div className="content">
                 <div className="topic">
                   <h2>Video Messages</h2>
-                  <p>
-                    <a href="#">
-                      <i className="bi bi-camera-video"> </i> Family – God’s
-                      Gift
-                    </a>
-                  </p>
-                  <p>
-                    <a href="#">
-                      <i className="bi bi-camera-video"> </i> Family – God’s
-                      Gift
-                    </a>
-                  </p>
-                  <p>
-                    <a href="#">
-                      <i className="bi bi-camera-video"> </i> Family – God’s
-                      Gift
-                    </a>
-                  </p>
-                  <p>
-                    <a href="#">
-                      <i className="bi bi-camera-video"> </i> Family – God’s
-                      Gift
-                    </a>
-                  </p>
-                  <p>
-                    <a href="#">
-                      <i className="bi bi-camera-video"> </i> Family – God’s
-                      Gift
-                    </a>
-                  </p>
-                  <p>
-                    <a href="#">
-                      <i className="bi bi-camera-video"> </i> Family – God’s
-                      Gift
-                    </a>
-                  </p>
-                  <p>
-                    <a href="#">
-                      <i className="bi bi-camera-video"> </i> Family – God’s
-                      Gift
-                    </a>
-                  </p>
-                  <p>
-                    <a href="#">
-                      <i className="bi bi-camera-video"> </i> Family – God’s
-                      Gift
-                    </a>
-                  </p>
-                  <p>
-                    <a href="#">
-                      <i className="bi bi-camera-video"> </i> Family – God’s
-                      Gift
-                    </a>
-                  </p>
-                  <p>
-                    <a href="#">
-                      <i className="bi bi-camera-video"> </i> Family – God’s
-                      Gift
-                    </a>
-                  </p>
-                  <p>
-                    <a href="#">
-                      <i className="bi bi-camera-video"> </i> Family – God’s
-                      Gift
-                    </a>
-                  </p>
-                  <p>
-                    <a href="#">
-                      <i className="bi bi-camera-video"> </i> Family – God’s
-                      Gift
-                    </a>
-                  </p>
+                  {VidMessages.map((item, index) => (
+                    <p key={index}>
+                      <a href={item.link} aria-label="Video Message Link" target="_blank">
+                        <i className="bi bi-camera-video"> </i> {item.title}
+                      </a>
+                    </p>
+                  ))}
+
+
                 </div>
                 <div className="topic">
-                    <h2>
-                        Audio Messages
-                    </h2>
+                  <h2>
+                    Audio Messages
+                  </h2>
+                  {AudMessages.map((item, index) => (
+                    <p key={index}>
+                      <a href={item.link} aria-label="Audio Message Link" target="_blank">
+                        <i className="bi bi-mic"> </i> {item.title}
+                      </a>
+                    </p>
+                  ))}
                 </div>
               </div>
             </div>
