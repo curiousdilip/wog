@@ -1,0 +1,47 @@
+#testimony {
+  background-color: #fff;
+}
+
+#testimony .content {
+  padding: 80px 0;
+  font-family: "Jost", sans-serif;
+}
+
+#testimony .content .topic {
+  margin-bottom: 20px;
+}
+
+#testimony .content .topic h3 {
+  font-size: 28px;
+  color: #000;
+  margin-bottom: 10px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+#testimony .content .topic p {
+  font-size: 18px;
+  color: #3d3d3d;
+  margin-bottom: 8px;
+  font-weight: 300;
+}
+
+#testimony .content .topic a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 18px;
+  color: #fff;
+  margin: 8px 0;
+  font-weight: 300;
+  padding: 10px 24px;
+  border-radius: 10px;
+  border: 2px solid #01529e;
+  background-color: #01529e;
+  transition: 0.3s all ease;
+}
+
+#testimony .content .topic a:hover {
+  border: 2px solid #01529e;
+  background-color: #fff;
+  color: #01529e;
+}
