@@ -2,12 +2,14 @@ import Breadcrumbs from "../components/breadcrumbs";
 import Footer from "../components/footer";
 import Header from "../components/header";
 import "./sg.css";
+export const metadata = {
+  title: "Serving God",
+  description: "Spiritual gifts are discussed in detail in four New Testament passages"
+}
 export default function ServingGod() {
+
   return (
     <>
-      <head>
-        <title>Serving God | Word of Guidance</title>
-      </head>
       <Header />
       <Breadcrumbs pageName="Serving God" />
       <section id="sg">

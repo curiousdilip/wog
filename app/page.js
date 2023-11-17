@@ -5,6 +5,12 @@ import { aboutBox, contactBox, guidanceBox } from "./data/home";
 import "./home.css";
 Image;
 export default function Home() {
+  // const pageTitle = "Word of Guidance | To equip for every good work";
+  // const pageDescription = "";
+  // const pageKeywords = "";
+  // const pageAuthor = "";
+  // const pageLink = "";
+  // const pageImage = "";
   return (
     <>
       <Header />
