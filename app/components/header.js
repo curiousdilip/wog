@@ -106,20 +106,89 @@ const Header = () => {
                   Home
                 </Link>
               </li>
-              <li className="nav-item">
-                <Link href="#home-guidance" className="nav-link">
+              <li className="nav-item dropdown">
+                <a
+                  href="#"
+                  className={`nav-link dropdown-toggle ${isActive("/guidance")}`}
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
                   Guidance
-                </Link>
+                </a>
+                <div className="dropdown-menu">
+                  <Link href="/faith" className="dropdown-item">
+                    Faith
+                  </Link>
+                  <Link href="/education" className="dropdown-item">
+                    Education
+                  </Link>
+                  <Link href="/job" className="dropdown-item">
+                    Job
+                  </Link>
+                  <Link href="/marriage" className="dropdown-item">
+                    Marriage
+                  </Link> <Link href="/christian-home" className="dropdown-item">
+                    Christian Home
+                  </Link> <Link href="/serving-god" className="dropdown-item">
+                    Serving God
+                  </Link> <Link href="/second-coming" className="dropdown-item">
+                    Second Coming
+                  </Link>
+                </div>
               </li>
-              <li className="nav-item">
-                <Link href="#home-about" className="nav-link">
+              <li className="nav-item dropdown">
+                <a
+                  href="#"
+                  className={`nav-link dropdown-toggle ${isActive("/about")}`}
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
                   About
-                </Link>
+                </a>
+                <div className="dropdown-menu">
+                  <Link href="/about/bio" className="dropdown-item">
+                    Bio
+                  </Link>
+                  <Link href="/about/articles" className="dropdown-item">
+                    Articles
+                  </Link>
+                  <Link href="/about/messages" className="dropdown-item">
+                    Messages
+                  </Link>
+                  <Link href="/about/events" className="dropdown-item">
+                    Events
+                  </Link>
+                </div>
               </li>
-              <li className="nav-item">
-                <Link href="#home-contact" className="nav-link">
+              <li className="nav-item dropdown">
+                <a
+                  href="#"
+                  className={`nav-link dropdown-toggle ${isActive("/contact")}`}
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
                   Contact
-                </Link>
+                </a>
+                <div className="dropdown-menu">
+                  <Link href="/contact/feedback" className="dropdown-item">
+                    Feedback
+                  </Link>
+                  <Link href="/contact/counselling-and-prayers" className="dropdown-item">
+                    Counselling and Prayers
+                  </Link>
+                  <Link href="/contact/career-guidance" className="dropdown-item">
+                    Career Guidance
+                  </Link>
+                  <Link href="/contact/invite-me" className="dropdown-item">
+                    Invite me to Speak
+                  </Link>
+                </div>
               </li>
             </ul>
           </div>
