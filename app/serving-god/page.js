@@ -5,6 +5,9 @@ import "./sg.css";
 export default function ServingGod() {
   return (
     <>
+      <head>
+        <title>Serving God | Word of Guidance</title>
+      </head>
       <Header />
       <Breadcrumbs pageName="Serving God" />
       <section id="sg">

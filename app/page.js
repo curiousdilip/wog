@@ -33,6 +33,13 @@ export default function Home() {
           <div className="row">
             <div className="col-md-12">
               <div className="content">
+                {/* <Image
+                  src="/hero-img.jpeg"
+                  width={800}
+                  height={500}
+                  alt="Hero Image"
+                  className="my-3 img-fluid w-100"
+                /> */}
                 <p>
                   He is light because divine glory was evident in Him as the
                   life giver. As He is light, demons (powers of darkness) flee
