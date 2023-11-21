@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <Breadcrumbs pageName="Education Bible" />
+      <Breadcrumbs pageName="Education" />
       <section id="education">
         <div className="container">
           <div className="row">

@@ -6,7 +6,7 @@ export default function Prayers() {
   return (
     <>
       <Header />
-      <Breadcrumbs pageName="Prayers for All Bible" />
+      <Breadcrumbs pageName="Prayers for All" />
       <section id="prayers">
         <div className="container">
           <div className="row">

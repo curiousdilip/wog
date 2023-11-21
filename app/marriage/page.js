@@ -6,7 +6,7 @@ export default function Marriage() {
     return (
         <>
             <Header />
-            <Breadcrumbs pageName="Marriage Bible" />
+            <Breadcrumbs pageName="Marriage" />
 
             <section id="marriage">
                 <div className="container">

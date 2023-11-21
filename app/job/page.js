@@ -1,3 +1,4 @@
+import Breadcrumbs from "../components/breadcrumbs";
 import Footer from "../components/footer";
 import Header from "../components/header";
 import "./job.css";
@@ -5,6 +6,7 @@ export default function Job() {
     return (
         <>
             <Header />
+            <Breadcrumbs pageName="Jobs" />
             <section id="job">
                 <div className="container">
                     <div className="row">

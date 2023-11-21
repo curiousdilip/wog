@@ -1,3 +1,4 @@
+import Breadcrumbs from "../components/breadcrumbs";
 import Footer from "../components/footer";
 import Header from "../components/header";
 import { faithBox } from "../data/faith";
@@ -6,6 +7,7 @@ export default function Faith() {
   return (
     <>
       <Header />
+      <Breadcrumbs pageName="Faith" />
       <section id="faith">
         <div className="container">
           <div className="row justify-content-center">
