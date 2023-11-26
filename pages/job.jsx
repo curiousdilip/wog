@@ -1,9 +1,44 @@
 import Breadcrumbs from "@/components/breadcrumbs";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
+import Head from "next/head";
 export default function Job() {
     return (
         <>
+            <Head>
+                <title>Job | Word of Guidance</title>
+                <meta
+                    name="description"
+                    content="Unlock success with our expert guidance on crafting effective job descriptions. Define roles, qualifications, and expectations seamlessly. Elevate your hiring process and attract top talent with precision and clarity.
+"
+                />
+                <link rel="canonical" href="https://www.wordofguidance.in/job" />
+                <meta
+                    property="og:title"
+                    content="Job | Word of Guidance"
+                />
+                <meta
+                    property="og:description"
+                    content="Unlock success with our expert guidance on crafting effective job descriptions. Define roles, qualifications, and expectations seamlessly. Elevate your hiring process and attract top talent with precision and clarity.
+"
+                />
+                <meta property="og:url" content="https://www.wordofguidance.in/job" />
+                <meta
+                    property="og:site_name"
+                    content="Job | Word of Guidance"
+                />
+
+                <meta name="twitter:card" content="summary" />
+                <meta
+                    name="twitter:title"
+                    content="Job | Word of Guidance"
+                />
+                <meta
+                    name="twitter:description"
+                    content="Unlock success with our expert guidance on crafting effective job descriptions. Define roles, qualifications, and expectations seamlessly. Elevate your hiring process and attract top talent with precision and clarity.
+"
+                />
+            </Head>
             <Header />
             <Breadcrumbs pageName="Jobs" />
             <section id="job">

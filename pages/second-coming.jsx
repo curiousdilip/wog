@@ -2,9 +2,41 @@ import Image from "next/image";
 import Breadcrumbs from "@/components/breadcrumbs";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
+import Head from "next/head";
 export default function SecondComing() {
     return (
         <>
+            <Head>
+                <title>Second Coming | Word of Guidance</title>
+                <meta
+                    name="description"
+                    content="Explore the profound teachings of the Bible on the Second Coming. Uncover biblical insights and prophetic wisdom, guiding you to understand and prepare for the imminent return of Christ."
+                />
+                <link rel="canonical" href="https://www.wordofguidance.in/second-coming" />
+                <meta
+                    property="og:title"
+                    content="Second Coming | Word of Guidance"
+                />
+                <meta
+                    property="og:description"
+                    content="Explore the profound teachings of the Bible on the Second Coming. Uncover biblical insights and prophetic wisdom, guiding you to understand and prepare for the imminent return of Christ."
+                />
+                <meta property="og:url" content="https://www.wordofguidance.in/second-coming" />
+                <meta
+                    property="og:site_name"
+                    content="Second Coming | Word of Guidance"
+                />
+
+                <meta name="twitter:card" content="summary" />
+                <meta
+                    name="twitter:title"
+                    content="Second Coming | Word of Guidance"
+                />
+                <meta
+                    name="twitter:description"
+                    content="Explore the profound teachings of the Bible on the Second Coming. Uncover biblical insights and prophetic wisdom, guiding you to understand and prepare for the imminent return of Christ."
+                />
+            </Head>
             <Header />
             <Breadcrumbs pageName="Second Coming of the Lord Jesus Christ" />
             <section id="sc">

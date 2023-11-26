@@ -2,9 +2,44 @@ import Breadcrumbs from "@/components/breadcrumbs";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
 import { faithBox } from "@/data/faith";
+import Head from "next/head";
 export default function Faith() {
     return (
         <>
+            <Head>
+                <title>Faith | Word of Guidance</title>
+                <meta
+                    name="description"
+                    content="Faith in the Bible is trust in God's promises, unseen realities, and salvation through Jesus Christ, transforming lives eternally.
+"
+                />
+                <link rel="canonical" href="https://www.wordofguidance.in/faith" />
+                <meta
+                    property="og:title"
+                    content="Faith | Word of Guidance"
+                />
+                <meta
+                    property="og:description"
+                    content="Faith in the Bible is trust in God's promises, unseen realities, and salvation through Jesus Christ, transforming lives eternally.
+"
+                />
+                <meta property="og:url" content="https://www.wordofguidance.in/faith" />
+                <meta
+                    property="og:site_name"
+                    content="Faith | Word of Guidance"
+                />
+
+                <meta name="twitter:card" content="summary" />
+                <meta
+                    name="twitter:title"
+                    content="Faith | Word of Guidance"
+                />
+                <meta
+                    name="twitter:description"
+                    content="Faith in the Bible is trust in God's promises, unseen realities, and salvation through Jesus Christ, transforming lives eternally.
+"
+                />
+            </Head>
             <Header />
             <Breadcrumbs pageName="Faith" />
             <section id="faith">

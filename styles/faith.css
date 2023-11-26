@@ -1,5 +1,4 @@
 #faith {
-  margin-top: 66px;
   padding: 80px 0;
   /* height: 80vh; */
   font-family: "Jost", sans-serif;
@@ -67,10 +66,6 @@
 }
 
 @media (max-width: 768px) {
-  #faith {
-    margin-top: 0;
-  }
-
   #faith .box-container {
     display: block;
     width: 90%;

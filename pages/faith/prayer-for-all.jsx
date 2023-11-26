@@ -1,9 +1,41 @@
 import Header from "@/components/header";
 import Footer from "@/components/footer";
 import Breadcrumbs from "@/components/breadcrumbs";
+import Head from "next/head";
 export default function Prayers() {
     return (
         <>
+            <Head>
+                <title>Prayer for All | Word of Guidance</title>
+                <meta
+                    name="description"
+                    content="Explore the magic of prayer for everyone on our webpage. Learn easy ways to pray, find comfort, and connect with your spiritual side. Experience the positive change prayer can bring!"
+                />
+                <link rel="canonical" href="https://www.wordofguidance.in/faith/prayer-for-all" />
+                <meta
+                    property="og:title"
+                    content="Prayer for All | Word of Guidance"
+                />
+                <meta
+                    property="og:description"
+                    content="Explore the magic of prayer for everyone on our webpage. Learn easy ways to pray, find comfort, and connect with your spiritual side. Experience the positive change prayer can bring!"
+                />
+                <meta property="og:url" content="https://www.wordofguidance.in/faith/prayer-for-all" />
+                <meta
+                    property="og:site_name"
+                    content="Prayer for All | Word of Guidance"
+                />
+
+                <meta name="twitter:card" content="summary" />
+                <meta
+                    name="twitter:title"
+                    content="Prayer for All | Word of Guidance"
+                />
+                <meta
+                    name="twitter:description"
+                    content="Explore the magic of prayer for everyone on our webpage. Learn easy ways to pray, find comfort, and connect with your spiritual side. Experience the positive change prayer can bring!"
+                />
+            </Head>
             <Header />
             <Breadcrumbs pageName="Prayers for All" />
             <section id="prayers">

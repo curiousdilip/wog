@@ -1,9 +1,41 @@
 import Breadcrumbs from "@/components/breadcrumbs";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
+import Head from "next/head";
 export default function Testimony() {
     return (
         <>
+            <Head>
+                <title>Testimony | Word of Guidance</title>
+                <meta
+                    name="description"
+                    content="Embark on a journey of transformation and triumph on A N A N D's Testimony Page. Explore inspiring stories of resilience, faith, and personal victories that illuminate the path to a brighter, empowered life."
+                />
+                <link rel="canonical" href="https://www.wordofguidance.in/education" />
+                <meta
+                    property="og:title"
+                    content="Testimony | Word of Guidance"
+                />
+                <meta
+                    property="og:description"
+                    content="Embark on a journey of transformation and triumph on A N A N D's Testimony Page. Explore inspiring stories of resilience, faith, and personal victories that illuminate the path to a brighter, empowered life."
+                />
+                <meta property="og:url" content="https://www.wordofguidance.in/education" />
+                <meta
+                    property="og:site_name"
+                    content="Testimony | Word of Guidance"
+                />
+
+                <meta name="twitter:card" content="summary" />
+                <meta
+                    name="twitter:title"
+                    content="Testimony | Word of Guidance"
+                />
+                <meta
+                    name="twitter:description"
+                    content="Embark on a journey of transformation and triumph on A N A N D's Testimony Page. Explore inspiring stories of resilience, faith, and personal victories that illuminate the path to a brighter, empowered life."
+                />
+            </Head>
             <Header />
             <Breadcrumbs pageName="Testimony" />
             <section id="testimony">

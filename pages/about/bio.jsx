@@ -1,10 +1,42 @@
 import Breadcrumbs from "@/components/breadcrumbs";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
+import Head from "next/head";
 import Image from "next/image";
 export default function Bio() {
     return (
         <>
+            <Head>
+                <title>Bio | Word of Guidance</title>
+                <meta
+                    name="description"
+                    content="Discover A N A N D and Dive into his life, passions, and experiences on this bio page. Explore the journey, interests, and insights that shape their unique story."
+                />
+                <link rel="canonical" href="https://www.wordofguidance.in/education" />
+                <meta
+                    property="og:title"
+                    content="Bio | Word of Guidance"
+                />
+                <meta
+                    property="og:description"
+                    content="Discover A N A N D and Dive into his life, passions, and experiences on this bio page. Explore the journey, interests, and insights that shape their unique story."
+                />
+                <meta property="og:url" content="https://www.wordofguidance.in/education" />
+                <meta
+                    property="og:site_name"
+                    content="Bio | Word of Guidance"
+                />
+
+                <meta name="twitter:card" content="summary" />
+                <meta
+                    name="twitter:title"
+                    content="Bio | Word of Guidance"
+                />
+                <meta
+                    name="twitter:description"
+                    content="Discover A N A N D and Dive into his life, passions, and experiences on this bio page. Explore the journey, interests, and insights that shape their unique story."
+                />
+            </Head>
             <Header />
             <Breadcrumbs pageName="Bio" />
             <section id="bio">

@@ -1,10 +1,42 @@
 import Header from "@/components/header";
 import Footer from "@/components/footer";
 import Breadcrumbs from "@/components/breadcrumbs";
+import Head from "next/head";
 
 export default function BibleOnSin() {
     return (
         <>
+            <Head>
+                <title>Bible on Sin | Word of Guidance</title>
+                <meta
+                    name="description"
+                    content="Discover what the Bible says about sin. Learn about its consequences, find ways to make things right, and understand the power of forgiveness. Explore simple wisdom for a good life."
+                />
+                <link rel="canonical" href="https://www.wordofguidance.in/faith/bible-on-sin" />
+                <meta
+                    property="og:title"
+                    content="Bible on Sin | Word of Guidance"
+                />
+                <meta
+                    property="og:description"
+                    content="Discover what the Bible says about sin. Learn about its consequences, find ways to make things right, and understand the power of forgiveness. Explore simple wisdom for a good life."
+                />
+                <meta property="og:url" content="https://www.wordofguidance.in/faith/bible-on-sin" />
+                <meta
+                    property="og:site_name"
+                    content="Bible on Sin | Word of Guidance"
+                />
+
+                <meta name="twitter:card" content="summary" />
+                <meta
+                    name="twitter:title"
+                    content="Bible on Sin | Word of Guidance"
+                />
+                <meta
+                    name="twitter:description"
+                    content="Discover what the Bible says about sin. Learn about its consequences, find ways to make things right, and understand the power of forgiveness. Explore simple wisdom for a good life."
+                />
+            </Head>
             <Header />
             <Breadcrumbs pageName="Bible on Sin" />
             <section id="bos-hero">

@@ -1,11 +1,43 @@
 import Breadcrumbs from "@/components/breadcrumbs";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
+import Head from "next/head";
 
 export default function ServingGod() {
 
     return (
         <>
+            <Head>
+                <title>Serving God | Word of Guidance</title>
+                <meta
+                    name="description"
+                    content="Elevate your spiritual journey with our biblical insights on serving God. Discover the transformative power of selfless devotion, guided by the wisdom of the Bible. Strengthen your faith today."
+                />
+                <link rel="canonical" href="https://www.wordofguidance.in/serving-god" />
+                <meta
+                    property="og:title"
+                    content="Serving God | Word of Guidance"
+                />
+                <meta
+                    property="og:description"
+                    content="Elevate your spiritual journey with our biblical insights on serving God. Discover the transformative power of selfless devotion, guided by the wisdom of the Bible. Strengthen your faith today."
+                />
+                <meta property="og:url" content="https://www.wordofguidance.in/serving-god" />
+                <meta
+                    property="og:site_name"
+                    content="Serving God | Word of Guidance"
+                />
+
+                <meta name="twitter:card" content="summary" />
+                <meta
+                    name="twitter:title"
+                    content="Serving God | Word of Guidance"
+                />
+                <meta
+                    name="twitter:description"
+                    content="Elevate your spiritual journey with our biblical insights on serving God. Discover the transformative power of selfless devotion, guided by the wisdom of the Bible. Strengthen your faith today."
+                />
+            </Head>
             <Header />
             <Breadcrumbs pageName="Serving God" />
             <section id="sg">

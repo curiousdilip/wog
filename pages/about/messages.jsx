@@ -2,9 +2,41 @@ import Breadcrumbs from "@/components/breadcrumbs";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
 import { AudMessages, VidMessages } from "@/data/messages";
+import Head from "next/head";
 export default function Messages() {
     return (
         <>
+            <Head>
+                <title>Messages | Word of Guidance</title>
+                <meta
+                    name="description"
+                    content="Dive into A N A N D's world of wisdom and inspiration on the Messages page. Explore insightful messages that resonate with positivity, purpose, and personal growth. Elevate your day with A N A N D's empowering words."
+                />
+                <link rel="canonical" href="https://www.wordofguidance.in/education" />
+                <meta
+                    property="og:title"
+                    content="Messages | Word of Guidance"
+                />
+                <meta
+                    property="og:description"
+                    content="Dive into A N A N D's world of wisdom and inspiration on the Messages page. Explore insightful messages that resonate with positivity, purpose, and personal growth. Elevate your day with A N A N D's empowering words."
+                />
+                <meta property="og:url" content="https://www.wordofguidance.in/education" />
+                <meta
+                    property="og:site_name"
+                    content="Messages | Word of Guidance"
+                />
+
+                <meta name="twitter:card" content="summary" />
+                <meta
+                    name="twitter:title"
+                    content="Messages | Word of Guidance"
+                />
+                <meta
+                    name="twitter:description"
+                    content="Dive into A N A N D's world of wisdom and inspiration on the Messages page. Explore insightful messages that resonate with positivity, purpose, and personal growth. Elevate your day with A N A N D's empowering words."
+                />
+            </Head>
             <Header />
             <Breadcrumbs pageName="Messages" />
             <section id="messages">

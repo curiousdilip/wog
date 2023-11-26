@@ -3,9 +3,41 @@ import Footer from "@/components/footer";
 import Breadcrumbs from "@/components/breadcrumbs";
 
 import Image from "next/image";
+import Head from "next/head";
 export default function PeaceWithGod() {
     return (
         <>
+            <Head>
+                <title>Peace with God | Word of Guidance</title>
+                <meta
+                    name="description"
+                    content="Find peace with God on our webpage! Learn simple ways to connect spiritually, feel calm, and experience God's peaceful presence. Explore insights that bring serenity to your life."
+                />
+                <link rel="canonical" href="https://www.wordofguidance.in/faith/peace-with-god" />
+                <meta
+                    property="og:title"
+                    content="Peace with God | Word of Guidance"
+                />
+                <meta
+                    property="og:description"
+                    content="Find peace with God on our webpage! Learn simple ways to connect spiritually, feel calm, and experience God's peaceful presence. Explore insights that bring serenity to your life."
+                />
+                <meta property="og:url" content="https://www.wordofguidance.in/faith/peace-with-god" />
+                <meta
+                    property="og:site_name"
+                    content="Peace with God | Word of Guidance"
+                />
+
+                <meta name="twitter:card" content="summary" />
+                <meta
+                    name="twitter:title"
+                    content="Peace with God | Word of Guidance"
+                />
+                <meta
+                    name="twitter:description"
+                    content="Find peace with God on our webpage! Learn simple ways to connect spiritually, feel calm, and experience God's peaceful presence. Explore insights that bring serenity to your life."
+                />
+            </Head>
             <Header />
             <Breadcrumbs pageName="Peace with God" />
             <section id="pwg">

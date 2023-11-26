@@ -4,6 +4,40 @@ import Header from "@/components/header";
 export default function Marriage() {
     return (
         <>
+            <Head>
+                <title>Marriage | Word of Guidance</title>
+                <meta
+                    name="description"
+                    content="Discover the timeless wisdom of the Bible for building a strong marriage. Our guidance reflects biblical principles, offering insights, and practical advice to strengthen your marital foundation and foster enduring love.
+"
+                />
+                <link rel="canonical" href="https://www.wordofguidance.in/marriage" />
+                <meta
+                    property="og:title"
+                    content="Marriage | Word of Guidance"
+                />
+                <meta
+                    property="og:description"
+                    content="Discover the timeless wisdom of the Bible for building a strong marriage. Our guidance reflects biblical principles, offering insights, and practical advice to strengthen your marital foundation and foster enduring love.
+"
+                />
+                <meta property="og:url" content="https://www.wordofguidance.in/marriage" />
+                <meta
+                    property="og:site_name"
+                    content="Marriage | Word of Guidance"
+                />
+
+                <meta name="twitter:card" content="summary" />
+                <meta
+                    name="twitter:title"
+                    content="Marriage | Word of Guidance"
+                />
+                <meta
+                    name="twitter:description"
+                    content="Discover the timeless wisdom of the Bible for building a strong marriage. Our guidance reflects biblical principles, offering insights, and practical advice to strengthen your marital foundation and foster enduring love.
+"
+                />
+            </Head>
             <Header />
             <Breadcrumbs pageName="Marriage" />
 

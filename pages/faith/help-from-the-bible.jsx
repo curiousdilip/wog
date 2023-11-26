@@ -1,9 +1,41 @@
 import Header from "@/components/header";
 import Footer from "@/components/footer";
 import Breadcrumbs from "@/components/breadcrumbs";
+import Head from "next/head";
 export default function HelpFromTheBible() {
     return (
         <>
+            <Head>
+                <title>Help from The Bible | Word of Guidance</title>
+                <meta
+                    name="description"
+                    content="Get help from the Bible! Find comfort, practical advice, and wisdom for life's challenges. Explore verses that bring hope and support during difficult times. Your guide to strength and peace."
+                />
+                <link rel="canonical" href="https://www.wordofguidance.in/faith/help-from-the-bible" />
+                <meta
+                    property="og:title"
+                    content="Help from The Bible | Word of Guidance"
+                />
+                <meta
+                    property="og:description"
+                    content="Get help from the Bible! Find comfort, practical advice, and wisdom for life's challenges. Explore verses that bring hope and support during difficult times. Your guide to strength and peace."
+                />
+                <meta property="og:url" content="https://www.wordofguidance.in/faith/help-from-the-bible" />
+                <meta
+                    property="og:site_name"
+                    content="Help from The Bible | Word of Guidance"
+                />
+
+                <meta name="twitter:card" content="summary" />
+                <meta
+                    name="twitter:title"
+                    content="Help from The Bible | Word of Guidance"
+                />
+                <meta
+                    name="twitter:description"
+                    content="Get help from the Bible! Find comfort, practical advice, and wisdom for life's challenges. Explore verses that bring hope and support during difficult times. Your guide to strength and peace."
+                />
+            </Head>
             <Header />
             <Breadcrumbs pageName="Help from the Bible" />
             <section id="hftb">

@@ -2,9 +2,41 @@ import Image from "next/image";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
 import Breadcrumbs from "@/components/breadcrumbs";
+import Head from "next/head";
 export default function Home() {
     return (
         <>
+            <Head>
+                <title>Education | Word of Guidance</title>
+                <meta
+                    name="description"
+                    content="Empower your future through insightful education resources. Explore innovative learning approaches, career guidance, and educational insights. Navigate the path to success with our comprehensive and valuable information."
+                />
+                <link rel="canonical" href="https://www.wordofguidance.in/education" />
+                <meta
+                    property="og:title"
+                    content="Education | Word of Guidance"
+                />
+                <meta
+                    property="og:description"
+                    content="Empower your future through insightful education resources. Explore innovative learning approaches, career guidance, and educational insights. Navigate the path to success with our comprehensive and valuable information."
+                />
+                <meta property="og:url" content="https://www.wordofguidance.in/education" />
+                <meta
+                    property="og:site_name"
+                    content="Education | Word of Guidance"
+                />
+
+                <meta name="twitter:card" content="summary" />
+                <meta
+                    name="twitter:title"
+                    content="Education | Word of Guidance"
+                />
+                <meta
+                    name="twitter:description"
+                    content="Empower your future through insightful education resources. Explore innovative learning approaches, career guidance, and educational insights. Navigate the path to success with our comprehensive and valuable information."
+                />
+            </Head>
             <Header />
             <Breadcrumbs pageName="Education" />
             <section id="education">

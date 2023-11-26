@@ -29,6 +29,21 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <Head>
+        <meta name="application-name" content="Word of Guidance " />
+        <link rel="author" href="https://www.dilipmaurya.in" />
+        <meta name="author" content="Dilip Kumar" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="website" />
+        <meta
+          name="keywords"
+          content="word of guidance, wog, word, of ,guidance"
+        />
+        <meta
+          name="format-detection"
+          content="telephone=no, address=no, email=no"
+        />
+        <meta name="referrer" content="origin-when-cross-origin" />
+        <meta name="robots" content="nofollow, noindex" />
         <link rel="icon" href="/favicon.png" />
       </Head>
       <Component {...pageProps} />
