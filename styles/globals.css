@@ -261,6 +261,13 @@ footer .footer-nav ul li a {
   text-transform: capitalize;
 }
 
+@media (max-width:768px) {
+  .breadcrumbs h3 {
+    font-size: 40px;
+  }
+
+}
+
 /* backtoptop */
 .backToTopButton {
   z-index: 999;

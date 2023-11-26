@@ -137,8 +137,8 @@ export default function Job() {
                                                 <a href="http://www.beyond.com">www.beyond.com</a>
                                             </p>
                                         </div>
-                                        <p>If you require counselling for career
-                                            <a href="https://wordofguidance.in/career-guidance/">click here</a>
+                                        <p>If you require counselling for career&nbsp;
+                                            <a href="/contact/career-guidance/">click here</a>
                                         </p>
                                     </div>
                                 </div>

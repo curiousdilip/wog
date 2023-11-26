@@ -67,6 +67,10 @@
 }
 
 @media (max-width: 768px) {
+  #faith {
+    margin-top: 0;
+  }
+
   #faith .box-container {
     display: block;
     width: 90%;
@@ -76,5 +80,6 @@
   #faith .box-container .box {
     margin: 10px auto;
     height: 200px;
+    width: auto;
   }
 }

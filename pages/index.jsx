@@ -2,10 +2,20 @@ import Image from "next/image";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
 import { aboutBox, contactBox, guidanceBox } from "@/data/home";
+import Head from "next/head";
 
 export default function Home() {
   return (
     <>
+      <Head>
+
+        <title>Word of Guidance | To equip for every good work
+
+        </title><meta name="description" content="Welcome to ‘Word of Guidance’ Website!
+This is a site of spiritual resources to assist individuals to know the Lord Jesus Christ who is the Light of the World." /><meta name="application-name" content="Word of Guidance " /><link rel="author" href="https://www.dilipmaurya.in" /><meta name="author" content="Dilip Kumar" /><meta name="keywords" content="word of guidance, wog, word, of ,guidance" /><meta name="referrer" content="origin-when-cross-origin" /><meta name="robots" content="nofollow, noindex" /><link rel="canonical" href="https://www.wordofguidance.in/" /><meta name="format-detection" content="telephone=no, address=no, email=no" /><meta property="og:title" content="Word of Guidance | To equip for every good work" /><meta property="og:description" content="Welcome to ‘Word of Guidance’ Website!
+This is a site of spiritual resources to assist individuals to know the Lord Jesus Christ who is the Light of the World." /><meta property="og:url" content="https://www.wordofguidance.in/" /><meta property="og:site_name" content="Word of Guidance | To equip for every good work" /><meta property="og:locale" content="en_US" /><meta property="og:type" content="website" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="Word of Guidance | To equip for every good work" /><meta name="twitter:description" content="Welcome to ‘Word of Guidance’ Website!
+This is a site of spiritual resources to assist individuals to know the Lord Jesus Christ who is the Light of the World." />
+      </Head>
       <Header />
       <section id="hero">
         <div className="container">
