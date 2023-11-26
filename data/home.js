@@ -40,22 +40,22 @@ export const aboutBox = [
   {
     src: "/icons/bio.svg",
     title: "Bio",
-    link: "/bio",
+    link: "/about/bio",
   },
   {
     src: "/icons/articles.svg",
     title: "Articles",
-    link: "/articles",
+    link: "/about/articles",
   },
   {
     src: "/icons/messages.svg",
     title: "Messages",
-    link: "/message",
+    link: "/about/message",
   },
   {
     src: "/icons/events.svg",
     title: "Events",
-    link: "/events",
+    link: "/about/events",
   }
 ];
 
@@ -64,22 +64,22 @@ export const contactBox = [
   {
     src: "/icons/feedback.svg",
     title: "Feedback",
-    link: "/feedback",
+    link: "/contact/feedback",
   },
   {
     src: "/icons/prayer-request.svg",
     title: "Counselling and Prayers",
-    link: "/counselling-and-prayers",
+    link: "/contact/counselling-and-prayers",
   },
   {
     src: "/icons/guidance.svg",
     title: "Career Guidance",
-    link: "/career-guidance",
+    link: "/contact/career-guidance",
   },
   {
     src: "/icons/invite-me-to-speak.svg",
     title: "Invite me to Speak",
-    link: "/invite-me",
+    link: "/contact/invite-me",
   }
 ];
 

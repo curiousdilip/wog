@@ -207,7 +207,7 @@
   #home-guidance .box-container .box {
     margin: 10px auto;
     height: 200px;
-    width: 250px;
+    width: auto;
   }
 }
 
@@ -281,6 +281,10 @@
 }
 
 @media (max-width: 768px) {
+  #home-about {
+    display: block;
+  }
+
   #home-about .box-container {
     display: block;
     width: 90%;
@@ -290,6 +294,8 @@
   #home-about .box-container .box {
     margin: 10px auto;
     height: 200px;
+    width: 100%;
+
   }
 }
 
@@ -363,6 +369,11 @@
 }
 
 @media (max-width: 768px) {
+
+  #home-contact {
+    display: block;
+  }
+
   #home-contact .box-container {
     display: block;
     width: 90%;
@@ -372,5 +383,6 @@
   #home-contact .box-container .box {
     margin: 10px auto;
     height: 200px;
+    width: auto;
   }
 }
