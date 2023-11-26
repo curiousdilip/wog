@@ -38,6 +38,8 @@ export default function App({ Component, pageProps }) {
           name="keywords"
           content="word of guidance, wog, word, of ,guidance"
         />
+        <meta property="og:image" content="/hero-img.jpeg"></meta>
+        <meta property="twitter:image" content="/hero-img.jpeg"></meta>
         <meta
           name="format-detection"
           content="telephone=no, address=no, email=no"
