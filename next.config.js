@@ -1,9 +1,27 @@
-// next.config.js
-const withMDX = require('@next/mdx')({
-  extension: /\.mdx?$/,
-});
-
-module.exports = withMDX({
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   reactStrictMode: true,
-  pageExtensions: ['js', 'jsx', 'md', 'mdx'],
-});
+  async headers() {
+    return [
+      {
+        source: '/(.*)',
+        headers: [
+          {
+            key: 'X-Content-Type-Options',
+            value: 'nosniff',
+          },
+          {
+            key: 'X-Frame-Options',
+            value: 'DENY',
+          },
+          {
+            key: 'X-XSS-Protection',
+            value: '1; mode=block',
+          },
+        ],
+      },
+    ];
+  },
+}
+
+module.exports = nextConfig
