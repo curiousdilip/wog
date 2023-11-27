@@ -2,6 +2,7 @@ import Header from "@/components/header";
 import Footer from "@/components/footer";
 import Breadcrumbs from "@/components/breadcrumbs";
 import Head from "next/head";
+import Link from "next/link";
 export default function Prayers() {
     return (
         <>
