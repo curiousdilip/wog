@@ -1,11 +1,47 @@
 import Breadcrumbs from "@/components/breadcrumbs";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
+import Head from "next/head";
 import Link from "next/link";
 
 export default function QuiteTime() {
     return (
         <>
+            <Head>
+                <title>A Time To Be Quiet
+                    | Word of Guidance</title>
+                <meta
+                    name="description"
+                    content="Unlock success through quiet time, meditation, and prayer. Embrace the wisdom of Scripture, finding strength and guidance. Discover the secrets of prevailing prayer, fostering a deep connection with God for prosperity."
+                />
+                <link rel="canonical" href="https://www.wordofguidance.in/about/articles/a-time-to-be-quiet" />
+                <meta
+                    property="og:title"
+                    content="A Time To Be Quiet
+ | Word of Guidance"
+                />
+                <meta
+                    property="og:description"
+                    content="Unlock success through quiet time, meditation, and prayer. Embrace the wisdom of Scripture, finding strength and guidance. Discover the secrets of prevailing prayer, fostering a deep connection with God for prosperity."
+                />
+                <meta property="og:url" content="https://www.wordofguidance.in/about/articles/a-time-to-be-quiet" />
+                <meta
+                    property="og:site_name"
+                    content="A Time To Be Quiet
+ | Word of Guidance"
+                />
+
+                <meta name="twitter:card" content="summary" />
+                <meta
+                    name="twitter:title"
+                    content="A Time To Be Quiet
+ | Word of Guidance"
+                />
+                <meta
+                    name="twitter:description"
+                    content="Unlock success through quiet time, meditation, and prayer. Embrace the wisdom of Scripture, finding strength and guidance. Discover the secrets of prevailing prayer, fostering a deep connection with God for prosperity."
+                />
+            </Head>
             <Header />
             <Breadcrumbs pageName="A Time to Be Quiet" />
             <section className="article">

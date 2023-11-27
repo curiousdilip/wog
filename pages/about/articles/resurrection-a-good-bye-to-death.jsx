@@ -1,11 +1,53 @@
 import Breadcrumbs from "@/components/breadcrumbs";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
+import Head from "next/head";
 import Link from "next/link";
 
 export default function resurrection() {
     return (
         <>
+            <Head>
+                <title>Resurrection
+                    | Word of Guidance</title>
+                <meta
+                    name="description"
+                    content="
+Christian hope: Grief met by the promise of resurrection. Transformative power fuels righteous, peaceful, and joyous living, echoing eternal hope."
+                />
+                <link
+                    rel="canonical"
+                    href="https://www.wordofguidance.in/about/articles/resurrection-a-good-bye-to-death"
+                />
+                <meta
+                    property="og:title"
+                    content="Resurrection | Word of Guidance"
+                />
+                <meta
+                    property="og:description"
+                    content="
+Christian hope: Grief met by the promise of resurrection. Transformative power fuels righteous, peaceful, and joyous living, echoing eternal hope."
+                />
+                <meta
+                    property="og:url"
+                    content="https://www.wordofguidance.in/about/articles/resurrection-a-good-bye-to-death"
+                />
+                <meta
+                    property="og:site_name"
+                    content="Resurrection | Word of Guidance"
+                />
+
+                <meta name="twitter:card" content="summary" />
+                <meta
+                    name="twitter:title"
+                    content="Resurrection | Word of Guidance"
+                />
+                <meta
+                    name="twitter:description"
+                    content="
+Christian hope: Grief met by the promise of resurrection. Transformative power fuels righteous, peaceful, and joyous living, echoing eternal hope."
+                />
+            </Head>
             <Header />
             <Breadcrumbs pageName="Resurrection – A Good Bye to Death!" />
             <section className="article">
@@ -19,7 +61,7 @@ export default function resurrection() {
 
                                 </div>
                                 <div className="thumbnail">
-                                    <img src="/articles/" alt="" />
+                                    <img src="/articles/Resurrection-A-Good-Bye-to-Death.png" alt="" />
                                 </div>
                                 <div className="topic">
                                     <p>The song, ‘By the rivers of Babylon’ has been popular as people could emotionally rhyme with the lyric … ‘there we sat down, yeah, we wept!’  Grief, weeping, mourning and a heavy heart seem to have become distinctive marks of human existence, ever since Adam and Eve disobeyed God. On hearing of the death of Lazarus, Jesus wept due to his compassionate heart, but was rather upbeat in His mind, as He taught, ‘I am the resurrection and the life. He who believes in Me, though he may die, he shall live. And whoever lives and believes in Me shall never die’ (John 11:25-26).  The day of Christ’s resurrection was on a Sunday, and since then, it has been called the ‘Lord’s Day.’ Early apostles chose to fellowship on Sundays, which has been followed by Christians, ever since, as a mark of persistent hope and a good bye to death.

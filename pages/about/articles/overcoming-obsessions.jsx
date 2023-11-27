@@ -1,11 +1,53 @@
 import Breadcrumbs from "@/components/breadcrumbs";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
+import Head from "next/head";
 import Link from "next/link";
 
 export default function Obsessions() {
     return (
         <>
+            <Head>
+                <title>Overcoming Obsessions
+                    | Word of Guidance</title>
+                <meta
+                    name="description"
+                    content="
+Overcome life's challenges by breaking free from obsessions with work, evil, self, worry, relationships, the past, and possessions. Embrace faith, resilience, and enduring happiness in Christ."
+                />
+                <link
+                    rel="canonical"
+                    href="https://www.wordofguidance.in/about/articles/overcoming-obsessions"
+                />
+                <meta
+                    property="og:title"
+                    content="Overcoming Obsessions | Word of Guidance"
+                />
+                <meta
+                    property="og:description"
+                    content="
+Overcome life's challenges by breaking free from obsessions with work, evil, self, worry, relationships, the past, and possessions. Embrace faith, resilience, and enduring happiness in Christ."
+                />
+                <meta
+                    property="og:url"
+                    content="https://www.wordofguidance.in/about/articles/overcoming-obsessions"
+                />
+                <meta
+                    property="og:site_name"
+                    content="Overcoming Obsessions | Word of Guidance"
+                />
+
+                <meta name="twitter:card" content="summary" />
+                <meta
+                    name="twitter:title"
+                    content="Overcoming Obsessions | Word of Guidance"
+                />
+                <meta
+                    name="twitter:description"
+                    content="
+Overcome life's challenges by breaking free from obsessions with work, evil, self, worry, relationships, the past, and possessions. Embrace faith, resilience, and enduring happiness in Christ."
+                />
+            </Head>
             <Header />
             <Breadcrumbs pageName="Overcoming Obsessions" />
             <section className="article">

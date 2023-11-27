@@ -50,26 +50,26 @@ const Header = () => {
           <div className="row">
             <div className="col-md-6">
               <div className="email">
-                <a href="#">
+                <Link href="#">
                   <i className="bi bi-envelope"> wordofguidance@gmail.com</i>
-                </a>
+                </Link>
               </div>
             </div>
 
             <div className="col-md-6">
               <div className="social">
-                <a href="#">
+                <Link href="#" aria-label="Facebook">
                   <i className="bi bi-facebook"></i>
-                </a>
-                <a href="#">
+                </Link>
+                <Link href="#" aria-label="Instagram">
                   <i className="bi bi-instagram"></i>
-                </a>{" "}
-                <a href="#">
+                </Link>{" "}
+                <Link href="#" aria-label="Twitter">
                   <i className="bi bi-twitter-x"></i>
-                </a>{" "}
-                <a href="#">
+                </Link>{" "}
+                <Link href="#" aria-label="LinkedIn">
                   <i className="bi bi-linkedin"></i>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -107,7 +107,7 @@ const Header = () => {
                 </Link>
               </li>
               <li className="nav-item dropdown">
-                <a
+                <Link
                   href="#"
                   className={`nav-link dropdown-toggle ${isActive("/guidance")}`}
                   role="button"
@@ -116,7 +116,7 @@ const Header = () => {
                   aria-expanded="false"
                 >
                   Guidance
-                </a>
+                </Link>
                 <div className="dropdown-menu">
                   <Link href="/faith" className="dropdown-item">
                     Faith
@@ -139,7 +139,7 @@ const Header = () => {
                 </div>
               </li>
               <li className="nav-item dropdown">
-                <a
+                <Link
                   href="#"
                   className={`nav-link dropdown-toggle ${isActive("/about")}`}
                   role="button"
@@ -148,7 +148,7 @@ const Header = () => {
                   aria-expanded="false"
                 >
                   About
-                </a>
+                </Link>
                 <div className="dropdown-menu">
                   <Link href="/about/bio" className="dropdown-item">
                     Bio
@@ -165,7 +165,7 @@ const Header = () => {
                 </div>
               </li>
               <li className="nav-item dropdown">
-                <a
+                <Link
                   href="#"
                   className={`nav-link dropdown-toggle ${isActive("/contact")}`}
                   role="button"
@@ -174,7 +174,7 @@ const Header = () => {
                   aria-expanded="false"
                 >
                   Contact
-                </a>
+                </Link>
                 <div className="dropdown-menu">
                   <Link href="/contact/feedback" className="dropdown-item">
                     Feedback

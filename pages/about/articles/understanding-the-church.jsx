@@ -1,11 +1,53 @@
 import Breadcrumbs from "@/components/breadcrumbs"
 import Footer from "@/components/footer"
 import Header from "@/components/header"
+import Head from "next/head"
 import Link from "next/link"
 
 export default function understandingChurch() {
     return (
         <>
+            <Head>
+                <title>Understanding the Church
+                    | Word of Guidance</title>
+                <meta
+                    name="description"
+                    content="
+Explore the vital role of the Church in evangelizing, guarding the truth, edifying believers, disciplining the unruly, and responding to persecution, impacting society's collective conscience."
+                />
+                <link
+                    rel="canonical"
+                    href="https://www.wordofguidance.in/about/articles/understanding-the-church"
+                />
+                <meta
+                    property="og:title"
+                    content="Understanding the Church | Word of Guidance"
+                />
+                <meta
+                    property="og:description"
+                    content="
+Explore the vital role of the Church in evangelizing, guarding the truth, edifying believers, disciplining the unruly, and responding to persecution, impacting society's collective conscience."
+                />
+                <meta
+                    property="og:url"
+                    content="https://www.wordofguidance.in/about/articles/understanding-the-church"
+                />
+                <meta
+                    property="og:site_name"
+                    content="Understanding the Church | Word of Guidance"
+                />
+
+                <meta name="twitter:card" content="summary" />
+                <meta
+                    name="twitter:title"
+                    content="Understanding the Church | Word of Guidance"
+                />
+                <meta
+                    name="twitter:description"
+                    content="
+Explore the vital role of the Church in evangelizing, guarding the truth, edifying believers, disciplining the unruly, and responding to persecution, impacting society's collective conscience."
+                />
+            </Head>
             <Header />
             <Breadcrumbs pageName="Understanding the Church" />
             <section className="article">

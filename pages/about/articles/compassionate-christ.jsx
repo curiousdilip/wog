@@ -1,11 +1,50 @@
 import Breadcrumbs from "@/components/breadcrumbs";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
+import Head from "next/head";
 import Link from "next/link";
 
 export default function campassionateChrist() {
     return (
         <>
+            <Head>
+                <title>Compassionate Christ
+                    | Word of Guidance</title>
+                <meta
+                    name="description"
+                    content="Discover hope, victory, and joy in turning to Christ amidst life's challenges. His compassion offers rest, making possible a life filled with faith, resilience, and enduring happiness."
+                />
+                <link
+                    rel="canonical"
+                    href="https://www.wordofguidance.in/about/articles/compassionate-christ"
+                />
+                <meta
+                    property="og:title"
+                    content="Compassionate Christ | Word of Guidance"
+                />
+                <meta
+                    property="og:description"
+                    content="Discover hope, victory, and joy in turning to Christ amidst life's challenges. His compassion offers rest, making possible a life filled with faith, resilience, and enduring happiness."
+                />
+                <meta
+                    property="og:url"
+                    content="https://www.wordofguidance.in/about/articles/compassionate-christ"
+                />
+                <meta
+                    property="og:site_name"
+                    content="Compassionate Christ | Word of Guidance"
+                />
+
+                <meta name="twitter:card" content="summary" />
+                <meta
+                    name="twitter:title"
+                    content="Compassionate Christ | Word of Guidance"
+                />
+                <meta
+                    name="twitter:description"
+                    content="Discover hope, victory, and joy in turning to Christ amidst life's challenges. His compassion offers rest, making possible a life filled with faith, resilience, and enduring happiness."
+                />
+            </Head>
             <Header />
             <Breadcrumbs pageName="Compassionate Christ" />
             <section className="article">

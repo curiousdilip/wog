@@ -134,7 +134,7 @@ This is a site of spiritual resources to assist individuals to know the Lord Jes
                   <div className="box" key={index}>
                     <img src={item.src} alt={item.title} />
                     <h3>{item.title}</h3>
-                    <Link href={item.link}>Learn More</Link>
+                    <Link href={item.link} aria-label="Click on the button to navigation to different types of guidance offered by me">Learn More</Link>
                   </div>
                 ))}
               </div>
@@ -159,7 +159,7 @@ This is a site of spiritual resources to assist individuals to know the Lord Jes
                   <div className="box" key={index}>
                     <img src={item.src} alt={item.title} />
                     <h3>{item.title}</h3>
-                    <Link href={item.link}>Learn More</Link>
+                    <Link href={item.link} aria-label="Explore Links telling about me">Learn More</Link>
                   </div>
                 ))}
               </div>
@@ -184,7 +184,7 @@ This is a site of spiritual resources to assist individuals to know the Lord Jes
                   <div className="box" key={index}>
                     <img src={item.src} alt={item.title} />
                     <h3>{item.title}</h3>
-                    <Link href={item.link}>Learn More</Link>
+                    <Link href={item.link} aria-label="Different ways by which you can contact me">Learn More</Link>
                   </div>
                 ))}
               </div>

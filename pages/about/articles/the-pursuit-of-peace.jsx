@@ -1,11 +1,53 @@
 import Breadcrumbs from "@/components/breadcrumbs";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
+import Head from "next/head";
 import Link from "next/link";
 
 export default function peace() {
     return (
         <>
+            <Head>
+                <title>The Pursuit of Peace
+                    | Word of Guidance</title>
+                <meta
+                    name="description"
+                    content="
+Discover the elusive path to peace amidst life's chaos. Insights on conflict, the source of true peace, and pursuing peace in a turbulent world."
+                />
+                <link
+                    rel="canonical"
+                    href="https://www.wordofguidance.in/about/articles/the-pursuit-of-peace"
+                />
+                <meta
+                    property="og:title"
+                    content="The Pursuit of Peace | Word of Guidance"
+                />
+                <meta
+                    property="og:description"
+                    content="
+Discover the elusive path to peace amidst life's chaos. Insights on conflict, the source of true peace, and pursuing peace in a turbulent world."
+                />
+                <meta
+                    property="og:url"
+                    content="https://www.wordofguidance.in/about/articles/the-pursuit-of-peace"
+                />
+                <meta
+                    property="og:site_name"
+                    content="The Pursuit of Peace | Word of Guidance"
+                />
+
+                <meta name="twitter:card" content="summary" />
+                <meta
+                    name="twitter:title"
+                    content="The Pursuit of Peace | Word of Guidance"
+                />
+                <meta
+                    name="twitter:description"
+                    content="
+Discover the elusive path to peace amidst life's chaos. Insights on conflict, the source of true peace, and pursuing peace in a turbulent world."
+                />
+            </Head>
             <Header />
             <Breadcrumbs pageName="The Pursuit of Peace" />
             <section className="article">
