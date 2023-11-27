@@ -3,6 +3,7 @@ import Footer from "@/components/footer";
 import Header from "@/components/header";
 import { aboutBox, contactBox, guidanceBox } from "@/data/home";
 import Head from "next/head";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -53,9 +54,9 @@ This is a site of spiritual resources to assist individuals to know the Lord Jes
               <div className="note">
                 <h2>There is no commercial purpose for this website.</h2>
               </div>
-              <a href="#hero-details" className="scroll-down" address="true">
+              <Link href="#hero-details" className="scroll-down" address="true">
                 <i className="bi bi-caret-down"></i>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -133,7 +134,7 @@ This is a site of spiritual resources to assist individuals to know the Lord Jes
                   <div className="box" key={index}>
                     <img src={item.src} alt={item.title} />
                     <h3>{item.title}</h3>
-                    <a href={item.link}>Learn More</a>
+                    <Link href={item.link}>Learn More</Link>
                   </div>
                 ))}
               </div>
@@ -158,7 +159,7 @@ This is a site of spiritual resources to assist individuals to know the Lord Jes
                   <div className="box" key={index}>
                     <img src={item.src} alt={item.title} />
                     <h3>{item.title}</h3>
-                    <a href={item.link}>Learn More</a>
+                    <Link href={item.link}>Learn More</Link>
                   </div>
                 ))}
               </div>
@@ -183,7 +184,7 @@ This is a site of spiritual resources to assist individuals to know the Lord Jes
                   <div className="box" key={index}>
                     <img src={item.src} alt={item.title} />
                     <h3>{item.title}</h3>
-                    <a href={item.link}>Learn More</a>
+                    <Link href={item.link}>Learn More</Link>
                   </div>
                 ))}
               </div>

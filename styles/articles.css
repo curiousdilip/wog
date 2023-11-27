@@ -110,6 +110,26 @@
     font-weight: 300;
 }
 
+.article .content .topic a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    margin: 8px 0;
+    font-weight: 300;
+    padding: 10px 24px;
+    border-radius: 10px;
+    border: 2px solid #01529e;
+    background-color: #01529e;
+    transition: 0.3s all ease;
+}
+
+.article .content .topic a:hover {
+    border: 2px solid #01529e;
+    background-color: #fff;
+    color: #01529e;
+}
+
 @media (max-width:768px) {
     #articles .box-container {
         grid-template-columns: auto;

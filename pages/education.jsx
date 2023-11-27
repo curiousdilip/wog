@@ -3,6 +3,7 @@ import Footer from "@/components/footer";
 import Header from "@/components/header";
 import Breadcrumbs from "@/components/breadcrumbs";
 import Head from "next/head";
+import Link from "next/link";
 export default function Home() {
     return (
         <>
@@ -63,45 +64,45 @@ export default function Home() {
                                     <h3>For Education / Vocational & Higher Education (India)</h3>
 
                                     <p>
-                                        <a href="http://www.nios.ac.in">www.nios.ac.in</a>
+                                        <Link href="http://www.nios.ac.in">www.nios.ac.in</Link>
                                         &nbsp;(Open schooling)
                                     </p>
                                     <p>
-                                        <a href="http://www.ignou.ac.in">www.ignou.ac.in</a>
+                                        <Link href="http://www.ignou.ac.in">www.ignou.ac.in</Link>
                                         &nbsp;(Education by correspondence)
                                     </p>
                                     <p>
-                                        <a href="http://www.indiastudycenter.com">
+                                        <Link href="http://www.indiastudycenter.com">
                                             www.indiastudycenter.com
-                                        </a>
+                                        </Link>
                                         &nbsp;(info on Indian education / courses)
                                     </p>
                                     <p>
-                                        <a href="http://www.aiache.in">www.aiache.in</a>
+                                        <Link href="http://www.aiache.in">www.aiache.in</Link>
                                         &nbsp;(Christian higher education)
                                     </p>
                                     <p>
-                                        <a href="http://www.upsc.gov.in/general/civil.htm">
+                                        <Link href="http://www.upsc.gov.in/general/civil.htm">
                                             www.upsc.gov.in/general/civil.htm
-                                        </a>
+                                        </Link>
                                         &nbsp;(Indian civil services)
                                     </p>
                                     <p>
-                                        <a href="http://www.karunya.edu">www.karunya.edu</a>
+                                        <Link href="http://www.karunya.edu">www.karunya.edu</Link>
                                         &nbsp;(Karunya University)
                                     </p>
                                     <p>
-                                        <a href="http://www.cmch-vellore.edu">
+                                        <Link href="http://www.cmch-vellore.edu">
                                             www.cmch-vellore.edu
-                                        </a>
+                                        </Link>
                                         &nbsp;(Christian Medical College)
                                     </p>
                                     <p>
-                                        <a href="http://www.nsdcindia.org">www.nsdcindia.org</a>
+                                        <Link href="http://www.nsdcindia.org">www.nsdcindia.org</Link>
                                         &nbsp;(National Skills development Corporation of India)
                                     </p>
                                     <p>
-                                        <a href="http://www.nagaland.net.in">www.nagaland.net.in</a>
+                                        <Link href="http://www.nagaland.net.in">www.nagaland.net.in</Link>
                                         &nbsp;The Global Open University of Nagaland
                                     </p>
                                 </div>
@@ -109,53 +110,53 @@ export default function Home() {
                                     <h3>Scholarships (India)</h3>
 
                                     <p>
-                                        <a href="http://www.scholarshipsinindia.com/">
+                                        <Link href="http://www.scholarshipsinindia.com/">
                                             www.scholarshipsinindia.com
-                                        </a>
+                                        </Link>
                                     </p>
                                     <p>
-                                        <a href="http://scholarship-positions.com/category/india-scholarships/">
+                                        <Link href="http://scholarship-positions.com/category/india-scholarships/">
                                             http://scholarship-positions.com/category/india-scholarships/
-                                        </a>
+                                        </Link>
                                     </p>
                                     <p>
-                                        <a href="http://scholarships.theiet.in/">
+                                        <Link href="http://scholarships.theiet.in/">
                                             http://scholarships.theiet.in/
-                                        </a>
+                                        </Link>
                                     </p>
                                     <p>
-                                        <a href="http://www.iccrindia.net/scholarshipschemes.html">
+                                        <Link href="http://www.iccrindia.net/scholarshipschemes.html">
                                             http://www.iccrindia.net/scholarshipschemes.html
-                                        </a>
+                                        </Link>
                                     </p>
                                     <p>
-                                        <a href="http://www.ffe.org/">http://www.ffe.org/</a>
+                                        <Link href="http://www.ffe.org/">http://www.ffe.org/</Link>
                                     </p>
                                     <p>
-                                        <a href="http://www.careers360.com/news/4793-Scholarship-Websites-India-Abroad">
+                                        <Link href="http://www.careers360.com/news/4793-Scholarship-Websites-India-Abroad">
                                             http://www.careers360.com/news/4793-Scholarship-Websites-India-Abroad
-                                        </a>
+                                        </Link>
                                     </p>
                                     <p>
-                                        <a href="http://www.momascholarship.gov.in/">
+                                        <Link href="http://www.momascholarship.gov.in/">
                                             http://www.momascholarship.gov.in/
-                                        </a>
+                                        </Link>
                                     </p>
                                 </div>
                                 <div className="topic">
                                     <h3>Learn English (through Hindi) – External Site</h3>
                                     <p>
-                                        <a href="https://www.englishwale.com/wp-content/uploads/2018/08/Spoken-English-Guru-eBook.pdf">
+                                        <Link href="https://www.englishwale.com/wp-content/uploads/2018/08/Spoken-English-Guru-eBook.pdf">
                                             Spoken English Guru eBook
-                                        </a>
+                                        </Link>
                                     </p>
                                 </div>
                                 <div className="topic">
                                     <h3>Learn MS Word Basics (External Site)</h3>
                                     <p>
-                                        <a href="https://www.tutorialspoint.com/word/word_tutorial.pdf">
+                                        <Link href="https://www.tutorialspoint.com/word/word_tutorial.pdf">
                                             Word Tutorial
-                                        </a>
+                                        </Link>
                                     </p>
                                 </div>
                             </div>

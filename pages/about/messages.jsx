@@ -3,6 +3,7 @@ import Footer from "@/components/footer";
 import Header from "@/components/header";
 import { AudMessages, VidMessages } from "@/data/messages";
 import Head from "next/head";
+import Link from "next/link";
 export default function Messages() {
     return (
         <>
@@ -48,9 +49,9 @@ export default function Messages() {
                                     <h2>Video Messages</h2>
                                     {VidMessages.map((item, index) => (
                                         <p key={index}>
-                                            <a href={item.link} aria-label="Video Message Link" target="_blank">
+                                            <Link href={item.link} aria-label="Video Message Link" target="_blank">
                                                 <i className="bi bi-camera-video"> </i> {item.title}
-                                            </a>
+                                            </Link>
                                         </p>
                                     ))}
 
@@ -62,9 +63,9 @@ export default function Messages() {
                                     </h2>
                                     {AudMessages.map((item, index) => (
                                         <p key={index}>
-                                            <a href={item.link} aria-label="Audio Message Link" target="_blank">
+                                            <Link href={item.link} aria-label="Audio Message Link" target="_blank">
                                                 <i className="bi bi-mic"> </i> {item.title}
-                                            </a>
+                                            </Link>
                                         </p>
                                     ))}
                                 </div>

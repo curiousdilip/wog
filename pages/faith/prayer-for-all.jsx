@@ -55,47 +55,47 @@ export default function Prayers() {
                                     <h3> Index of Prayers in this page:</h3>
                                     <ol>
                                         <li>
-                                            <a href="#repentance">Prayer of Repentance</a>
+                                            <Link href="#repentance">Prayer of Repentance</Link>
                                         </li>
                                         <li>
-                                            <a href="#sick">
+                                            <Link href="#sick">
                                                 A Prayer for those in sorrow and sickness
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li>
-                                            <a href="#financial">Prayer for financial blessings</a>
+                                            <Link href="#financial">Prayer for financial blessings</Link>
                                         </li>
                                         <li>
-                                            <a href="#protection">Prayer for Protection</a>
+                                            <Link href="#protection">Prayer for Protection</Link>
                                         </li>
                                         <li>
-                                            <a href="#deliverance">
+                                            <Link href="#deliverance">
                                                 Prayer for deliverance from evil
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li>
-                                            <a href="#parents">Prayer by Parents for children</a>
+                                            <Link href="#parents">Prayer by Parents for children</Link>
                                         </li>
                                         <li>
-                                            <a href="#gift">
+                                            <Link href="#gift">
                                                 A prayer of faith for the gift of children
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li>
-                                            <a href="#students">Prayer for Students / Exams</a>
+                                            <Link href="#students">Prayer for Students / Exams</Link>
                                         </li>
                                         <li>
-                                            <a href="#marriage">
+                                            <Link href="#marriage">
                                                 Prayer for Singles seeking marriage
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li>
-                                            <a href="#guidance-prayer">Prayer for guidance</a>
+                                            <Link href="#guidance-prayer">Prayer for guidance</Link>
                                         </li>
                                         <li>
-                                            <a href="#professionals">
+                                            <Link href="#professionals">
                                                 Prayer for professionals / workers
-                                            </a>
+                                            </Link>
                                         </li>
                                     </ol>
                                 </div>

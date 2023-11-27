@@ -1,6 +1,7 @@
 import Breadcrumbs from "@/components/breadcrumbs";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
+import Link from "next/link";
 
 export default function Obsessions() {
     return (
@@ -13,7 +14,10 @@ export default function Obsessions() {
                         <div className="col-md-12">
                             <div className="content">
                                 <div className="topic"><p>October 6, 2023 |
-                                    Anand</p></div>
+                                    Anand</p>
+                                    <Link href="/about/articles">Back to Articles</Link>
+
+                                </div>
                                 <div className="thumbnail">
                                     <img src="/articles/obsessions.jpg" alt="" />
                                 </div>

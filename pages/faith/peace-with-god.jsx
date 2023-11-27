@@ -4,6 +4,7 @@ import Breadcrumbs from "@/components/breadcrumbs";
 
 import Image from "next/image";
 import Head from "next/head";
+import Link from "next/link";
 export default function PeaceWithGod() {
     return (
         <>
@@ -282,9 +283,9 @@ export default function PeaceWithGod() {
                                             </ol>
                                             <p>
                                                 To send this page to your friends, the link is:{" "}
-                                                <a href="/faith/peace-with-god">
+                                                <Link href="/faith/peace-with-god">
                                                     www.wordofguidance.in/peace
-                                                </a>
+                                                </Link>
                                             </p>
                                         </div>
                                     </div>
@@ -302,41 +303,41 @@ export default function PeaceWithGod() {
                                     <h3>To Grow in Christ</h3>
 
                                     <p>
-                                        <a href="http://www.biblegateway.com">
+                                        <Link href="http://www.biblegateway.com">
                                             www.biblegateway.com
-                                        </a>
+                                        </Link>
                                         &nbsp;(The Holy Bible)
                                     </p>
                                     <p>
-                                        <a href="http://www.billygraham.org">www.billygraham.org</a>
+                                        <Link href="http://www.billygraham.org">www.billygraham.org</Link>
                                         &nbsp;(New life resources)
                                     </p>
                                     <p>
-                                        <a href="http://www.prayertoweronline.com">
+                                        <Link href="http://www.prayertoweronline.com">
                                             www.prayertoweronline.com
-                                        </a>
+                                        </Link>
                                         &nbsp;(for prayers and miracles)
                                     </p>
                                     <p>
-                                        <a href="http://www.rzim.org">www.rzim.org</a>&nbsp;(for
+                                        <Link href="http://www.rzim.org">www.rzim.org</Link>&nbsp;(for
                                         reasoning on matters of faith)
                                     </p>
                                     <p>
-                                        <a href="http://www.altogetherlovely.org">
+                                        <Link href="http://www.altogetherlovely.org">
                                             www.altogetherlovely.org
-                                        </a>
+                                        </Link>
                                         &nbsp;(ministry of inner healing and understanding)
                                     </p>
                                     <p>
-                                        <a href="http://www.light-of-life.org">
+                                        <Link href="http://www.light-of-life.org">
                                             www.light-of-life.org
-                                        </a>
+                                        </Link>
                                         &nbsp;(comparative religion)
                                     </p>
                                     <p>
-                                        <a href="http://www.divyadestiny.org">
+                                        <Link href="http://www.divyadestiny.org">
                                             www.divyadestiny.org
-                                        </a>
+                                        </Link>
                                         &nbsp;(comparative religion)
                                     </p>
                                 </div>

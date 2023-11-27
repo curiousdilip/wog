@@ -2,6 +2,7 @@ import Breadcrumbs from "@/components/breadcrumbs";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
 import Head from "next/head";
+import Link from "next/link";
 export default function Testimony() {
     return (
         <>
@@ -140,7 +141,7 @@ export default function Testimony() {
                                         God bless you to taste and see in life, that He is good!
                                     </p>
 
-                                    <a href="/about/bio">Back to Bio</a>
+                                    <Link href="/about/bio">Back to Bio</Link>
                                 </div>
                             </div>
                         </div>

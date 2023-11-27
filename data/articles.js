@@ -22,25 +22,25 @@ export const articles = [
         title: "Resurrection – A Good Bye To Death!",
         author: "A N A N D",
         date: "November 29, 2022",
-        link: "/"
+        link: "/about/articles/resurrection-a-good-bye-to-death"
     }, {
         img: "/articles/understanding-the-church.jpg",
         title: "Understanding The Church",
         author: "A N A N D",
         date: "November 29, 2022",
-        link: "/"
+        link: "/about/articles/understanding-the-church"
     }, {
         img: "/articles/A-Time-to-Be-Quiet.jpg",
         title: "A Time To Be Quiet",
         author: "A N A N D",
         date: "November 29, 2022",
-        link: "/"
+        link: "/about/articles/a-time-to-be-quiet"
     }, {
         img: "/articles/jesus-healing-the-sick.jpg",
         title: "Compassionate Christ",
         author: "A N A N D",
         date: "November 29, 2022",
-        link: "/"
+        link: "/about/articles/compassionate-christ"
     },
 
 

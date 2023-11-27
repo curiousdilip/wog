@@ -1,5 +1,7 @@
 import Breadcrumbs from "@/components/breadcrumbs";
+import Footer from "@/components/footer";
 import Header from "@/components/header";
+import Link from "next/link";
 
 export default function biblical() {
     return (
@@ -13,7 +15,10 @@ export default function biblical() {
                         <div className="col-md-12">
                             <div className="content">
                                 <div className="topic"><p>December 4, 2022 |
-                                    Anand</p></div>
+                                    Anand</p>
+                                    <Link href="/about/articles">Back to Articles</Link>
+
+                                </div>
                                 <div className="thumbnail">
                                     <img src="/articles/homeless-man.jpg" alt="" />
                                 </div>
@@ -85,6 +90,7 @@ export default function biblical() {
                     </div>
                 </div>
             </section>
+            <Footer />
         </>
     )
 }

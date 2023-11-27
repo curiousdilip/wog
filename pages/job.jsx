@@ -2,6 +2,7 @@ import Breadcrumbs from "@/components/breadcrumbs";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
 import Head from "next/head";
+import Link from "next/link";
 export default function Job() {
     return (
         <>
@@ -81,99 +82,99 @@ export default function Job() {
                                     <div className="row">
                                         <div className="col-md-6">
                                             <p>
-                                                <a href="http://www.ncs.gov.in">www.ncs.gov.in</a>
+                                                <Link href="http://www.ncs.gov.in">www.ncs.gov.in</Link>
                                             </p>
                                             <p>
-                                                <a href="http://www.ngobox.org">www.ngobox.org</a>
+                                                <Link href="http://www.ngobox.org">www.ngobox.org</Link>
                                             </p>
                                             <p>
-                                                <a href="http://www.devnetjobsindia.org">
+                                                <Link href="http://www.devnetjobsindia.org">
                                                     www.devnetjobsindia.org
-                                                </a>
+                                                </Link>
                                             </p>
                                             <p>
-                                                <a href="http://www.ngojobsindia.in">
+                                                <Link href="http://www.ngojobsindia.in">
                                                     www.ngojobsindia.in
-                                                </a>
+                                                </Link>
                                                 &nbsp;
                                             </p>
                                             <p>
-                                                <a href="http://www.devnetjobs.org">
+                                                <Link href="http://www.devnetjobs.org">
                                                     www.devnetjobs.org
-                                                </a>
+                                                </Link>
                                             </p>
                                             <p>
-                                                <a href="http://www.ngosindia.com">www.ngosindia.com</a>
+                                                <Link href="http://www.ngosindia.com">www.ngosindia.com</Link>
                                             </p>
                                             <p>
-                                                <a href="http://www.indianngos.com">
+                                                <Link href="http://www.indianngos.com">
                                                     www.indianngos.com
-                                                </a>
+                                                </Link>
                                             </p>
                                             <p>
-                                                <a href="http://www.careerjet.co.in">
+                                                <Link href="http://www.careerjet.co.in">
                                                     www.careerjet.co.in
-                                                </a>
+                                                </Link>
                                             </p>
                                             <p>
-                                                <a href="http://www.naukri.com">www.naukri.com</a>
+                                                <Link href="http://www.naukri.com">www.naukri.com</Link>
                                             </p>
                                             <p>
-                                                <a href="http://www.monster.com">www.monster.com</a>
+                                                <Link href="http://www.monster.com">www.monster.com</Link>
                                             </p>
                                             <p>
-                                                <a href="http://www.careerbuilder.com">
+                                                <Link href="http://www.careerbuilder.com">
                                                     www.careerbuilder.com
-                                                </a>
+                                                </Link>
                                             </p>
                                             <p>
-                                                <a href="http://www.unjobs.com">www.unjobs.com</a>
+                                                <Link href="http://www.unjobs.com">www.unjobs.com</Link>
                                             </p>
                                         </div>
                                         <div className="col-md-6">
                                             <p>
-                                                <a href="http://www.indeed.com">www.indeed.com</a>
+                                                <Link href="http://www.indeed.com">www.indeed.com</Link>
                                             </p>
                                             <p>
-                                                <a href="http://www.nsdcindia.org">www.nsdcindia.org</a>
+                                                <Link href="http://www.nsdcindia.org">www.nsdcindia.org</Link>
                                             </p>
                                             <p>
-                                                <a href="http://www.simplyhired.com">
+                                                <Link href="http://www.simplyhired.com">
                                                     www.simplyhired.com
-                                                </a>
+                                                </Link>
                                             </p>
                                             <p>
-                                                <a href="http://www.glassdoor.com">www.glassdoor.com</a>
+                                                <Link href="http://www.glassdoor.com">www.glassdoor.com</Link>
                                             </p>
                                             <p>
-                                                <a href="http://www.jobs.aol.com">www.jobs.aol.com</a>
+                                                <Link href="http://www.jobs.aol.com">www.jobs.aol.com</Link>
                                             </p>
                                             <p>
-                                                <a href="http://www.snagajobs.com">www.snagajobs.com</a>
+                                                <Link href="http://www.snagajobs.com">www.snagajobs.com</Link>
                                             </p>
                                             <p>
-                                                <a href="http://www.theladders.com">
+                                                <Link href="http://www.theladders.com">
                                                     www.theladders.com
-                                                </a>
+                                                </Link>
                                             </p>
                                             <p>
-                                                <a href="http://www.careerjet.com">www.careerjet.com</a>
+                                                <Link href="http://www.careerjet.com">www.careerjet.com</Link>
                                             </p>
                                             <p>
-                                                <a href="http://www.usajobs.com">www.usajobs.com</a>
+                                                <Link href="http://www.usajobs.com">www.usajobs.com</Link>
                                             </p>
                                             <p>
-                                                <a href="http://www.job.com">www.job.com</a>
+                                                <Link href="http://www.job.com">www.job.com</Link>
                                             </p>
                                             <p>
-                                                <a href="http://www.dice.com">www.dice.com</a>
+                                                <Link href="http://www.dice.com">www.dice.com</Link>
                                             </p>
                                             <p>
-                                                <a href="http://www.beyond.com">www.beyond.com</a>
+                                                <Link href="http://www.beyond.com">www.beyond.com</Link>
                                             </p>
                                         </div>
                                         <p>If you require counselling for career&nbsp;
-                                            <a href="/contact/career-guidance/">click here</a>
+                                            <Link href="/contact/career-guidance/">click here</Link>
                                         </p>
                                     </div>
                                 </div>

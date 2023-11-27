@@ -3,6 +3,7 @@ import Footer from "@/components/footer";
 import Header from "@/components/header";
 import { faithBox } from "@/data/faith";
 import Head from "next/head";
+import Link from "next/link";
 export default function Faith() {
     return (
         <>
@@ -58,7 +59,7 @@ export default function Faith() {
                                     <div className="box" key={index}>
                                         <img src={item.src} alt={item.title} />
                                         <h3>{item.title}</h3>
-                                        <a href={item.link}>Learn More</a>
+                                        <Link href={item.link}>Learn More</Link>
                                     </div>
                                 ))}
                             </div>

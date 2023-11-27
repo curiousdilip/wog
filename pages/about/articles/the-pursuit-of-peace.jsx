@@ -1,6 +1,7 @@
 import Breadcrumbs from "@/components/breadcrumbs";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
+import Link from "next/link";
 
 export default function peace() {
     return (
@@ -14,6 +15,8 @@ export default function peace() {
                             <div className="content">
                                 <div className="topic">
                                     <p>November 29, 2022 | Anand</p>
+                                    <Link href="/about/articles">Back to Articles</Link>
+
                                 </div>
                                 <div className="thumbnail">
                                     <img src="/articles/In-Pursuit-of-peace.jpg" alt="" />

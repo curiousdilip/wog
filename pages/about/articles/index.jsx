@@ -3,6 +3,7 @@ import Footer from "@/components/footer";
 import Header from "@/components/header";
 import { articles } from "@/data/articles";
 import Head from "next/head";
+import Link from "next/link";
 
 export default function Articles() {
     return (
@@ -47,7 +48,7 @@ export default function Articles() {
                             <div className="box-container">
 
                                 {articles.map((item, index) => (
-                                    <a className="box" key={index} href={item.link}>
+                                    <Link className="box" key={index} href={item.link}>
                                         <div className="img-container">
                                             <img src={item.img} alt="Article Image" className="img-fluid" />
                                         </div>
@@ -56,7 +57,7 @@ export default function Articles() {
                                                 {item.title}		</h3>
                                             <p>{item.author} | {item.date}</p>
                                         </div>
-                                    </a>
+                                    </Link>
                                 ))}
                             </div>
                         </div>

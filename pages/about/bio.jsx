@@ -3,6 +3,7 @@ import Footer from "@/components/footer";
 import Header from "@/components/header";
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 export default function Bio() {
     return (
         <>
@@ -142,10 +143,10 @@ export default function Bio() {
                                             <span>VOLUNTARY INTERESTS:</span> Volunteering in church
                                             events for spiritual growth and professional development.
                                         </p>
-                                        <p>To read my testimony, please click here.</p>
+                                        <p>To read my testimony, please <Link href="/about/testimony">click here.</Link></p>
                                         <p>
                                             To watch a video of my career and professional values,
-                                            please click here
+                                            please <Link href="#">click here</Link>
                                         </p>
                                     </div>
                                     <div className="col-md-4">
