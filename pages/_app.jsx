@@ -6,6 +6,7 @@ import '../styles/bible-on-sin.css';
 import '../styles/hftb.css';
 import '../styles/cg.css';
 import '../styles/cap.css';
+import '../styles/articles.css';
 import '../styles/feedback.css';
 import '../styles/sg.css';
 import '../styles/invite.css';
@@ -40,6 +41,15 @@ export default function App({ Component, pageProps }) {
         />
         <meta property="og:image" content="/hero-img.jpeg"></meta>
         <meta property="twitter:image" content="/hero-img.jpeg"></meta>
+
+        <meta
+          property="og:image"
+          content={`https://wordofguidance.vercel.app/hero-img.jpeg`}
+        />
+        <meta
+          name="twitter:image"
+          content={`https://wordofguidance.vercel.app/hero-img.jpeg`}
+        />
         <meta
           name="format-detection"
           content="telephone=no, address=no, email=no"
