@@ -3,6 +3,7 @@ import Footer from "@/components/footer";
 import Header from "@/components/header";
 import { faithBox } from "@/data/faith";
 import Head from "next/head";
+import Image from "next/image";
 import Link from "next/link";
 export default function Faith() {
     return (
@@ -57,7 +58,12 @@ export default function Faith() {
                             <div className="box-container">
                                 {faithBox.map((item, index) => (
                                     <div className="box" key={index}>
-                                        <img src={item.src} alt={item.title} />
+                                        <Image
+                                            src={item.src}
+                                            width={70}
+                                            height={70}
+                                            alt={item.title}
+                                        />
                                         <h3>{item.title}</h3>
                                         <Link href={item.link}>Learn More</Link>
                                     </div>

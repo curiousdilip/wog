@@ -2,6 +2,7 @@ import Breadcrumbs from "@/components/breadcrumbs";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
 import Head from "next/head";
+import Image from "next/image";
 import Link from "next/link";
 
 export default function biblical() {
@@ -62,7 +63,12 @@ Navigate global suffering with biblical wisdom. Understand the purposes of suffe
                                     <Link href="/about/articles">Back to Articles</Link>
                                 </div>
                                 <div className="thumbnail">
-                                    <img src="/articles/homeless-man.jpg" alt="" />
+                                    <Image
+                                        src="/articles/homeless-man.jpg"
+                                        width={1076}
+                                        height={500}
+                                        alt="Biblical Responses to Suffering"
+                                    />
                                 </div>
                                 <div className="topic">
                                     <h3>Introduction</h3>

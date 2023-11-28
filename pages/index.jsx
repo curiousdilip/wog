@@ -132,7 +132,12 @@ This is a site of spiritual resources to assist individuals to know the Lord Jes
               <div className="box-container">
                 {guidanceBox.map((item, index) => (
                   <div className="box" key={index}>
-                    <img src={item.src} alt={item.title} />
+                    <Image
+                      src={item.src}
+                      width={70}
+                      height={70}
+                      alt={item.title}
+                    />
                     <h3>{item.title}</h3>
                     <Link href={item.link} aria-label="Click on the button to navigation to different types of guidance offered by me">Learn More</Link>
                   </div>

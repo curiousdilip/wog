@@ -2,6 +2,7 @@ import Breadcrumbs from "@/components/breadcrumbs";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
 import Head from "next/head";
+import Image from "next/image";
 import Link from "next/link";
 
 export default function QuiteTime() {
@@ -55,7 +56,12 @@ export default function QuiteTime() {
 
                                 </div>
                                 <div className="thumbnail">
-                                    <img src="/articles/A-Time-to-Be-Quiet.jpg" alt="" />
+                                    <Image
+                                        src="/articles/A-Time-to-Be-Quiet.jpg"
+                                        width={1076}
+                                        height={500}
+                                        alt="A Time to Be Quiet"
+                                    />
                                 </div>
                                 <div className="topic">
                                     <p>In the business world, people strive to talk their way to success.  While it may be true, the more a man talks, the less he listens, much less learns.  King Solomon said, “To everything there is a season, a time for every purpose under heaven: … a time to keep silence and a time to speak.” (Ecclesiastes 3:1,7).  Being lost in a maze of activities, it is becoming impossible for man to observe silence on a regular basis.  “Quiet time” means the time spent consistently every day in self-isolation in a quiet and private ambience for the purpose of meditation of the Scriptures and prayer.  Psalmist unravels the secret of prosperity: “Blessed is the man … his delight is in the law of the Lord, and in His law he meditates day and night.  He shall be like a tree planted by the rivers of water, that brings forth its fruit in its season, whose leaf also shall not wither; and whatever he does shall prosper.” (Psalm 1:2, 3).  Jesus’ life was punctuated with times of prayer.  “Very early in the morning, while it was still dark, Jesus got up, left the house and went off to a solitary place, where He prayed.” (Mark 1:35). The most important relationship one can have in this life is with God and it is nourished and strengthened through daily mediation and prayer.

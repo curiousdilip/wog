@@ -2,6 +2,7 @@ import Breadcrumbs from "@/components/breadcrumbs";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
 import Head from "next/head";
+import Image from "next/image";
 import Link from "next/link";
 
 export default function campassionateChrist() {
@@ -58,7 +59,12 @@ export default function campassionateChrist() {
 
                                 </div>
                                 <div className="thumbnail">
-                                    <img src="/articles/jesus-healing-the-sick.jpg" alt="" />
+                                    <Image
+                                        src="/articles/jesus-healing-the-sick.jpg"
+                                        width={1076}
+                                        height={500}
+                                        alt="Compassionate Christ"
+                                    />
                                 </div>
                                 <div className="topic">
                                     <p>Jesus was moved with compassion when He saw the multitudes.  When His disciples drove away little children from approaching Jesus, He rebuked His disciples and permitted children to be brought to Him to be blessed.  He was a people-Person.  Out of His compassion for the broken hearted, Jesus said, “Come to me all you who labor and are heavy laden, and I will give you rest1.”  While labor causes physical exhaustion, heaviness of heart causes mental fatigue and even spiritual deterioration.  But when you turn to Christ, He gives you hope, victory and joy.

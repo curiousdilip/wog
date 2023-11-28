@@ -2,6 +2,7 @@ import Breadcrumbs from "@/components/breadcrumbs";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
 import Head from "next/head";
+import Image from "next/image";
 import Link from "next/link";
 
 export default function peace() {
@@ -61,7 +62,12 @@ Discover the elusive path to peace amidst life's chaos. Insights on conflict, th
 
                                 </div>
                                 <div className="thumbnail">
-                                    <img src="/articles/In-Pursuit-of-peace.jpg" alt="" />
+                                    <Image
+                                        src="/articles/In-Pursuit-of-peace.jpg"
+                                        width={1076}
+                                        height={500}
+                                        alt="The Pursuit of Peace"
+                                    />
                                 </div>
                                 <div className="topic">
                                     <p>Famed Hollywood comedian Robin Williams, who was called the ‘funniest man on earth,’ committed suicide due to acute depression.  Several others in the entertainment industry have ended their lives abruptly, despite all the fun that the world could offer them and all the thrilling sensation they could be to the world. Here’s why we wonder why peace is so elusive and so costly.  To attain peace of mind, people may try anything– workaholic lifestyle, wealth, entertainment, cheap popularity, pleasure, alcohol, aesthetic living, addictive shopping, wanderlust, meditation techniques, secretive societies etc. At last, nobody seems to exclaim ‘life is sweet!’  Puzzled enough, the human mind despondently rues:  Where is peace?  Is there a sure way to it? How do I get there? We are only echoing what Solomon said centuries ago: ‘All things are full of weariness; a man cannot utter it; the eye is not satisfied with seeing, nor the ear filled with hearing.’ (Ecclesiastes 1:18)

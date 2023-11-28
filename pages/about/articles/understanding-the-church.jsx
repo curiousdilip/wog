@@ -2,6 +2,7 @@ import Breadcrumbs from "@/components/breadcrumbs"
 import Footer from "@/components/footer"
 import Header from "@/components/header"
 import Head from "next/head"
+import Image from "next/image"
 import Link from "next/link"
 
 export default function understandingChurch() {
@@ -60,7 +61,12 @@ Explore the vital role of the Church in evangelizing, guarding the truth, edifyi
                                     <Link href="/about/articles">Back to Articles</Link>
                                 </div>
                                 <div className="thumbnail">
-                                    <img src="/articles/understanding-the-church.jpg" alt="" />
+                                    <Image
+                                        src="/articles/understanding-the-church.jpg"
+                                        width={1076}
+                                        height={500}
+                                        alt="Understanding the Church"
+                                    />
                                 </div>
                                 <div className="topic">
                                     <h3>Introduction</h3>

@@ -2,6 +2,7 @@ import Breadcrumbs from "@/components/breadcrumbs";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
 import Head from "next/head";
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Obsessions() {
@@ -61,7 +62,12 @@ Overcome life's challenges by breaking free from obsessions with work, evil, sel
 
                                 </div>
                                 <div className="thumbnail">
-                                    <img src="/articles/obsessions.jpg" alt="" />
+                                    <Image
+                                        src="/articles/obsessions.jpg"
+                                        width={1076}
+                                        height={500}
+                                        alt="Overcoming Obsessions"
+                                    />
                                 </div>
                                 <div className="topic">
                                     <h3 className="text-center">1. Obsessed With Work</h3>
